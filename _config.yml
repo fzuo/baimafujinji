@@ -2,9 +2,9 @@
 title: 白马负金羁的博客
 email: fzuo@foxmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  闫肃的博客
+  白马负金羁的博客
 baseurl: /baimafujinji/ # the subpath of your site, e.g. /blog/
-# url: http://yansu.org # the base hostname & protocol for your site
+url: http://fzuo.github.io/baimafujinji # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 author: Su Yan
 
