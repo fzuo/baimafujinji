@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SEO 常用资源
-category: 资源
+category: 大道行思
 tags: SEO
 keywords: SEO
 ---
