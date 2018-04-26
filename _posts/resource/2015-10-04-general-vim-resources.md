@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 临渊慕鱼，不如退而结网！
-category: 资源
+category: 大道行思
 tags: Vim
 keywords: Vim
 ---
