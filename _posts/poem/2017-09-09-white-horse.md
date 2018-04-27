@@ -61,6 +61,6 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
   ![bai ma](https://fzuo.github.io/assets/img/20170909023653716.jpg)  
 </center>
 
-<font color=#0099ff size=7>
+<font color=blue size=7>
   （本文完）
 </font>
