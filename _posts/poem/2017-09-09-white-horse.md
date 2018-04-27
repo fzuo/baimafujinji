@@ -57,8 +57,6 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
 
 </font>
 
-
-![bai ma](https://fzuo.github.io/assets/img/20170909023653716.jpg)
-
+<img src="https://fzuo.github.io/assets/img/20170909023653716.jpg" width="50%" height="50%">
 
 <span style="color:blue">（本文完）</span>
