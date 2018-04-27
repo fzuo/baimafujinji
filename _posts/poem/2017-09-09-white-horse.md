@@ -31,7 +31,7 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
 </font>
 
 <center>
-![cao zhi](fzuo.github.io/assets/img/20170909023653716.jpg)
+  ![cao zhi](fzuo.github.io/assets/img/20170909023653716.jpg)
 </center>
 
 ## 从军行
@@ -58,7 +58,9 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
 </font>
 
 <center>
-![bai ma](https://fzuo.github.io/assets/img/20170909023653716.jpg)  
+  ![bai ma](https://fzuo.github.io/assets/img/20170909023653716.jpg)  
 </center>
 
-<font color=#0099ff size=7>（本文完）</font>
+<font color=#0099ff size=7>
+  （本文完）
+</font>
