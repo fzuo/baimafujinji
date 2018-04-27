@@ -12,7 +12,7 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
 【三国 曹植】
 
 
-<font face="STCAIYUN">
+
   
 白马饰金羁，连翩西北驰。借问谁家子，幽并游侠儿。
 
@@ -28,7 +28,7 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
 
 名编壮士籍，不得中顾私。捐躯赴国难，视死忽如归！
 
-</font>
+
 
 ![cao zhi](https://fzuo.github.io/assets/img/20170909023653716.jpg)
 
