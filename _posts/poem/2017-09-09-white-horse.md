@@ -61,6 +61,7 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
   ![bai ma](https://fzuo.github.io/assets/img/20170909023653716.jpg)  
 </center>
 
+Roses are <span style="color:red">red</span>, violets are <span style="color:blue">blue</span>.
 <font color=blue size=7>
   （本文完）
 </font>
