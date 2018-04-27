@@ -22,9 +22,11 @@ description: 在OpenStack二次开发中，Horizon肯定是常常要修改的部
 这时我们需要再求一次导，如果二阶导数 $f''<0$，那么说明函数在该点取得局部极大值；如果二阶导数 $f''>0$，则说明函数在该点取得局部极小值；如果 $f''=0$，则结果仍然是不确定的，我们就不得不再通过其他方式来确定函数的极值性。
 
 如果要在多元函数中求极值点，方法与此类似。作为一个示例，不妨用一个三元函数 $f=f(x,y,z)$ 来作为示例。首先要对函数中的每个变量分别求偏导数，这会告诉我们该函数的极值点可能出现在哪里。即
-$$\frac{\partial f}{\partial x}=0\\
-\frac{\partial f}{\partial y}=0\\
-\frac{\partial f}{\partial x}=0$$
+\[
+\ \frac{\partial f}{\partial x}=0\\
+\ \frac{\partial f}{\partial y}=0\\
+\ \frac{\partial f}{\partial x}=0
+\]
 接下来，要继续求二阶导数，此时包含混合偏导数的情况一共有 $9$ 个，如果用矩阵形式来表示的话就得到
 $$\mathbf{H}=\begin{bmatrix} \frac{\partial^2f}{\partial x\partial x} & \frac{\partial^2f}{\partial x\partial y} & \frac{\partial^2f}{\partial x\partial z} \\ \frac{\partial^2f}{\partial y\partial x} & \frac{\partial^2f}{\partial y\partial y} & \frac{\partial^2f}{\partial y\partial z} \\\frac{\partial^2f}{\partial z\partial x}&\frac{\partial^2f}{\partial z\partial y}&\frac{\partial^2f}{\partial z\partial z} \end{bmatrix}$$
 
