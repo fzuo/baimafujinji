@@ -30,9 +30,7 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
 
 </font>
 
-<center>
-  ![cao zhi](fzuo.github.io/assets/img/20170909023653716.jpg)
-</center>
+![cao zhi](fzuo.github.io/assets/img/20170909023653716.jpg)
 
 ## 从军行
 --------------------------------------
