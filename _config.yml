@@ -4,7 +4,7 @@ email: fzuo@foxmail.com
 description: > # this means to ignore newlines until "baseurl:"
   白马负金羁的博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://fzuo.github.io/ # the base hostname & protocol for your site
+url: https://fzuo.github.io/ # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 author: Su Yan
 
@@ -21,8 +21,8 @@ instagram: suyan404
 linkedin: suyan404
 
 # avatar and Favicon
-avatar: fzuo.github.io/assets/img/baimafujinji.png
-favicon: fzuo.github.io/assets/img/baimafujinji.png
+avatar: https://fzuo.github.io/assets/img/baimafujinji.png
+favicon: https://fzuo.github.io/assets/img/baimafujinji.png
 
 # disqus config
 disqus:
