@@ -29,9 +29,9 @@ description: 朔方烽火照甘泉，长安飞将出祁连。犀渠玉剑艮家�
 名编壮士籍，不得中顾私。捐躯赴国难，视死忽如归！
 
 
-<div style="align: center">
+<p align="center">
 <img src="https://fzuo.github.io/assets/img/20170909023653716.jpg" width="30%" height="30%">
-</div>
+</p>
 
 --------------------------------------
 
@@ -56,8 +56,8 @@ description: 朔方烽火照甘泉，长安飞将出祁连。犀渠玉剑艮家�
 
 
 
-<div style="align: center">
+<p align="center">
 <img src="https://fzuo.github.io/assets/img/20170909023248099.png" width="400">
-</div>
+</p>
 
 <span style="color:blue">**（本文完）**</span>
