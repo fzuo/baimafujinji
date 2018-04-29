@@ -4,7 +4,7 @@ title: 白马金羁诗二首
 category: 文学与诗歌
 tags: Poem
 keywords: 白马篇,从军行
-description: 毕设答辩完了，大概大学四年也等于交代了吧
+description: 朔方烽火照甘泉，长安飞将出祁连。犀渠玉剑艮家子，白马金羁侠少年
 ---
 
 ## 白马篇
@@ -30,7 +30,7 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
 
 
 
-![cao zhi](https://fzuo.github.io/assets/img/20170909023653716.jpg){:height="50%" width="50%"}
+![cao zhi](https://fzuo.github.io/assets/img/20170909023653716.jpg | width=100)
 
 --------------------------------------
 
@@ -38,8 +38,6 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
 
 【北朝 卢思道】
 
-
-<font face="STCAIYUN">
 
 朔方烽火照甘泉，长安飞将出祁连。犀渠玉剑良家子，白马金羁侠少年。
 
@@ -55,8 +53,9 @@ description: 毕设答辩完了，大概大学四年也等于交代了吧
 
 从军行，军行万里出龙庭，单于渭桥今已拜，将军何处觅功名。
 
-</font>
 
-<img src="https://fzuo.github.io/assets/img/20170909023653716.jpg" width="50%" height="50%">
+
+
+<img src="https://fzuo.github.io/assets/img/20170909023248099.png" width="50%" height="50%">
 
 <span style="color:blue">（本文完）</span>
