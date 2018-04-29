@@ -39,4 +39,4 @@ keywords: Vim
 
 <span style="color:blue">**（本文完）**</span>
 
-<span style="color:orange">** VIEWER DISCRETION IS ADVISED !!! **</span>
+<span style="color:#FF8000">** VIEWER DISCRETION IS ADVISED !!! **</span>
