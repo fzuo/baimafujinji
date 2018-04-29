@@ -30,7 +30,7 @@ description: 朔方烽火照甘泉，长安飞将出祁连。犀渠玉剑艮家�
 
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/20170909023653716.jpg" width="30%" height="30%">
+<img src="https://fzuo.github.io/assets/img/20170909023653716.jpg" width="300">
 </p>
 
 --------------------------------------
