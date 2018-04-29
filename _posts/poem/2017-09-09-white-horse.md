@@ -37,7 +37,7 @@ description: 朔方烽火照甘泉，长安飞将出祁连。犀渠玉剑艮家�
 
 ## 从军行
 
-【北朝 卢思道】
+> 北朝 卢思道
 
 
 朔方烽火照甘泉，长安飞将出祁连。犀渠玉剑良家子，白马金羁侠少年。
@@ -57,6 +57,6 @@ description: 朔方烽火照甘泉，长安飞将出祁连。犀渠玉剑艮家�
 
 
 
-<img src="https://fzuo.github.io/assets/img/20170909023248099.png" width="50%" height="50%">
+<img src="https://fzuo.github.io/assets/img/20170909023248099.png" width="400">
 
 <span style="color:blue">（本文完）</span>
