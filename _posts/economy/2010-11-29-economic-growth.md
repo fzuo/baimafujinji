@@ -1,4 +1,4 @@
-<---
+---
 layout: post
 title: 罗斯托的经济成长阶段论
 category: 经济研究
