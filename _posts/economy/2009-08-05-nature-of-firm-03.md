@@ -52,7 +52,7 @@ These quotations give the essence of Professor Knight's theory. The fact of unce
 
 Professor Knight would appear to leave himself open to criticism on several grounds. First of all, as he himself points out, the fact that certain people have better judgment or better knowledge does not mean that they can only get an income from it by themselves actively taking part in production. They can sell advice or knowledge. Every business buys the services of a host of advisers. We can imagine a system where ah advice or knowledge was bought as required. Again, it is possible to get a reward from better knowledge or judgment not by actively taking part in production but by making contracts with people who are producing. A merchant buying for future delivery represents an example of this. But this merely illustrates the point that it is quite possible to give a guaranteed reward providing that certain acts are performed without directing the performance of those acts. Professor Knight says that "with human nature as we know it, it would be impracticable or very unusual for one man to guarantee to another a definite result of the latter's actions without being given power to direct his work." This is surely incorrect. A large proportion of jobs are done to contract, that is, the contractor is guaranteed a certain sum providing he performs certain acts. But this does not involve any direction. It does mean, however, that the system of relative prices has been changed and that there will be a new arrangement of the factors of production.42 The fact that Professor Knight mentions that the "second party would not place himself under the direction of the first without such a guarantee" is irrelevant to the problem we are considering. Finally, it seems important to notice that even in. the case of an economic system where there is no uncertainty Professor Knight considers that there would be co-ordinators, though they would perform only a routine function. He immediately adds that they would be "without responsibility of any sort," which raises the question by whom are they paid and why? It seems that nowhere does Professor Knight give a reason why the price mechanism should be superseded.
 
-【译文】
+ 【译文】
 
 这些引语表明了奈特教授的理论的实质。不确定性的存在意味着人们不得不预测未来的需要。因此出现了一个特殊阶层，他们向他人支付有保证的工资，并以此控制他人的行动。因为良好的判断力通常与一个人对其判断力的自信心相联系，所以这个特殊阶层起着作用。
 
@@ -88,15 +88,15 @@ Professor Knight would appear to leave himself open to criticism on several grou
 
 * 企业的基本特征：
 
- * 劳动分工不是企业的特征。
+     * 劳动分工不是企业的特征。
     
- * “不确定性”也不能用来说明企业特征。
+     * “不确定性”也不能用来说明企业特征。
     
- * “企业对消费者需求的预测”和“决策和控制功能的集中化”也不能代表企业的特征。
+     * “企业对消费者需求的预测”和“决策和控制功能的集中化”也不能代表企业的特征。
     
- *  “只有契约以及在契约中明确个人的权利和报酬”同样不是企业的特征。
+     *  “只有契约以及在契约中明确个人的权利和报酬”同样不是企业的特征。
     
- * 企业的特征就是“价格机制被企业取代”。
+     * 企业的特征就是“价格机制被企业取代”。
 
 
 
