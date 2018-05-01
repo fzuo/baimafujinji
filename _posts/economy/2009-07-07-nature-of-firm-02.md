@@ -154,7 +154,7 @@ The point has been made in the previous paragraph that a firm will tend to expan
 
 【译文】
 
-①上文已经指出这样一点：企业将倾向于扩张直到在企业内部组织一笔额外交易的成本，等于通过在公开市场上完成同一笔交易的成本或在另一个企业中组织同样交易的成本为止。②但如果企业在低于公开市场上的交易成本这一点上或在等于在另一个企业中组织同样交易的成本这一点上停止其扩张，在大多数情况下（“联合”的情况除外），这将意味着在这两个生产者之间存在着市场交易，其中每一方都能在低于实际市场运行成本的水平上组织生产。如何解决这个悖论呢？③为了便于说明，我们来举一个例子。假定A向B购买产品，且A和B都能在低于其现在成本的条件下组织市场交易。我们可以假定，B不是组织生产的一个过程或阶段，而是组织许多个。假如A由此希望避免市场交易，那他将不得不接管所有由B控制的生产过程。除非A接管了所有生产过程，否则市场交易将依然存在，尽管市场上交易的是不同的产品。④但我们前面已经假定，每一个生产者的扩张会导致效率降低；组织一笔额外交易的附加成本会上升。A组织先前由B组织的交易的成本可能会大于B做这件事的成本。只有当A组织B的工作的成本不大于B的成本且数量上等于公开市场上完成同样交易的成本时，A才会由此接管B的所有组织。⑤可一旦市场交易变得经济时，以这样的方式将生产分开也要付出代价，即在每一个企业中组织一笔额外交易的成本是一样的。
+<span style="color:blue">①</span>上文已经指出这样一点：企业将倾向于扩张直到在企业内部组织一笔额外交易的成本，等于通过在公开市场上完成同一笔交易的成本或在另一个企业中组织同样交易的成本为止。<span style="color:blue">②</span>但如果企业在低于公开市场上的交易成本这一点上或在等于在另一个企业中组织同样交易的成本这一点上停止其扩张，在大多数情况下（“联合”的情况除外），这将意味着在这两个生产者之间存在着市场交易，其中每一方都能在低于实际市场运行成本的水平上组织生产。如何解决这个悖论呢？<span style="color:blue">③</span>为了便于说明，我们来举一个例子。假定A向B购买产品，且A和B都能在低于其现在成本的条件下组织市场交易。我们可以假定，B不是组织生产的一个过程或阶段，而是组织许多个。假如A由此希望避免市场交易，那他将不得不接管所有由B控制的生产过程。除非A接管了所有生产过程，否则市场交易将依然存在，尽管市场上交易的是不同的产品。<span style="color:blue">④</span>但我们前面已经假定，每一个生产者的扩张会导致效率降低；组织一笔额外交易的附加成本会上升。A组织先前由B组织的交易的成本可能会大于B做这件事的成本。只有当A组织B的工作的成本不大于B的成本且数量上等于公开市场上完成同样交易的成本时，A才会由此接管B的所有组织。⑤可一旦市场交易变得经济时，以这样的方式将生产分开也要付出代价，即在每一个企业中组织一笔额外交易的成本是一样的。
 
 
 
@@ -170,15 +170,13 @@ c. the greater the lowering (or the less the rise) in the supply price of factor
 
 【译文】
 
-⑥直到现在我们一直假定通过价格机制发生的市场交易是同质的。⑦事实上，没有一件事能够比我们现代社会中发生的实际交易更多样化了。这似乎意味着通过价格机制完成交易的成本是彼此差异很大的，而在企业内部组织交易的成本亦如此。因此，即使撇开收益递减问题，在企业内部组织某些交易的成本似乎也有可能大于在公开市场上完成交易的成本。这必然意味着通过价格机制完成的交易是存在的，但这意味着必须存在一个以上的企业吗？⑧显然不是，因为在经济体制中，凡是资源导向不直接依赖于价格机制的所有领域，都能被组织到一个企业中去。本文早先讨论的因素看来很重要，尽管难以断言“管理收益递减”或要素供给价格上升是否看起来更为重要。
+<span style="color:blue">⑥</span>直到现在我们一直假定通过价格机制发生的市场交易是同质的。<span style="color:blue">⑦</span>事实上，没有一件事能够比我们现代社会中发生的实际交易更多样化了。这似乎意味着通过价格机制完成交易的成本是彼此差异很大的，而在企业内部组织交易的成本亦如此。因此，即使撇开收益递减问题，在企业内部组织某些交易的成本似乎也有可能大于在公开市场上完成交易的成本。这必然意味着通过价格机制完成的交易是存在的，但这意味着必须存在一个以上的企业吗？⑧显然不是，因为在经济体制中，凡是资源导向不直接依赖于价格机制的所有领域，都能被组织到一个企业中去。本文早先讨论的因素看来很重要，尽管难以断言“管理收益递减”或要素供给价格上升是否看起来更为重要。
 
 所以，当其他条件相同时，企业在如下情况下将趋于扩大：
 
-1.组织成本愈少，随着被组织的交易的增多，成本上升得愈慢。
-
-2.企业家犯错误的可能性愈小，随着被组织的交易的增多，失误增加得愈少。
-
-3.企业规模愈大，生产要素的供给价格下降得愈大（或上升得愈小）。
+1.组织成本愈少，随着被组织的交易的增多，成本上升得愈慢。<br>
+2.企业家犯错误的可能性愈小，随着被组织的交易的增多，失误增加得愈少。<br>
+3.企业规模愈大，生产要素的供给价格下降得愈大（或上升得愈小）。<br>
 
 
 【注解】9：
@@ -200,16 +198,15 @@ c. the greater the lowering (or the less the rise) in the supply price of factor
 <span style="color:blue">⑧科斯自己回答：“显然不是”，不是的原因是因为资本主义制度下的市场体制，价格机制涉及到的所有领域对资源配置失去作用和控制，所以社会资源可以被组织到一个企业中去。</span>
 
 
-
-
 Apart from variations in the supply price of factors of production to firms of different sizes, it would appear that the costs of organizing and the losses through mistakes will increase with an increase in the spatial distribution of the transactions organized, in the dissimilarity of the transactions, and in the probability of changes in the relevant prices.29 As more transactions are organized by an entrepreneur, it would appear that the transactions would tend to be either different in kind or in different places. This furnishes an additional reason why efficiency will tend to decrease as the firm gets larger. Inventions which tend to bring factors of production nearer together, by lessening spatial distribution, tend to increase the size of the firm.30 Changes like the telephone and the telegraph which tend to reduce the cost of organizing spatially will tend to increase the size of the firm. All changes which improve managerial technique will tend to increase the size of the firm.31/32
 
 It should be noted that the definition of a firm which was given above can be used to give more precise meanings to the terms "combination" and "integration."33 There is a combination when transactions which were previously organized by two or more entrepreneurs become organized by one. This becomes integration when it involves the organization of transactions which were previously carried out between the entrepreneurs on a market. A firm can expand in either or both of these two ways. The whole of the "structure of competitive industry" becomes tractable by the ordinary technique of economic analysis.
 
 【译文】
 
-①对不同规模的企业而言，除了生产要素的供给价格千差万别外，随着被组织的交易的空间分布、交易的差异性和相对价格变化的可能性的增加，组织成本和失误带来的亏损似乎也会增加。②当更多的交易由一个企业家来组织时，交易似乎将倾向于既有不同的种类也有不同的位置。这为企业扩大时效率将趋于下降提供了一个附加原因。③倾向于使生产要素结合得更紧和分布空间更小的创新，将导致企业规模的扩大。④倾向于降低空间组织成本的电话和电报的技术变革将导致企业规模的扩大。⑤一切有助于提高管理技术的变革都将导致企业规模的扩大。
-⑥应该注意到，上面给出的企业的定义能被用于对“联合”和“一体化”作出精确的解释。当先前由两个或更多个企业家组织的交易变成由一个企业家组织时，便出现了联合。当所涉及的先前由企业家之间在市场上完成的交易被组织起来时，这便是一体化。⑦企业能以这两种方式中的一种或同时以这两种方式进行扩张。⑧整个“竞争性产业的结构”便能用通常的经济分析方法来处理了。
+<span style="color:blue">①</span>对不同规模的企业而言，除了生产要素的供给价格千差万别外，随着被组织的交易的空间分布、交易的差异性和相对价格变化的可能性的增加，组织成本和失误带来的亏损似乎也会增加。<span style="color:blue">②</span>当更多的交易由一个企业家来组织时，交易似乎将倾向于既有不同的种类也有不同的位置。这为企业扩大时效率将趋于下降提供了一个附加原因。<span style="color:blue">③</span>倾向于使生产要素结合得更紧和分布空间更小的创新，将导致企业规模的扩大。<span style="color:blue">④</span>倾向于降低空间组织成本的电话和电报的技术变革将导致企业规模的扩大。<span style="color:blue">⑤</span>一切有助于提高管理技术的变革都将导致企业规模的扩大。
+   
+<span style="color:blue">⑥</span>应该注意到，上面给出的企业的定义能被用于对“联合”和“一体化”作出精确的解释。当先前由两个或更多个企业家组织的交易变成由一个企业家组织时，便出现了联合。当所涉及的先前由企业家之间在市场上完成的交易被组织起来时，这便是一体化。<span style="color:blue">⑦</span>企业能以这两种方式中的一种或同时以这两种方式进行扩张。<span style="color:blue">⑧</span>整个“竞争性产业的结构”便能用通常的经济分析方法来处理了。
 
 
 
@@ -241,7 +238,7 @@ It should be noted that the definition of a firm which was given above can be us
 
     * 第一，否定了企业的产生是由于某些人为了愿意跟随他们喜欢的人，接受更低的报酬，在这种情况下企业便产生了；
 
-    * 第二，否定了企业的产生是由于某些人愿意指挥别人，为了能够指挥别人支付给他们相应的报酬，在这种情况下企业便产               生了；
+    * 第二，否定了企业的产生是由于某些人愿意指挥别人，为了能够指挥别人支付给他们相应的报酬，在这种情况下企业便产生了；
 
     * 第三，否定了企业的产生是由于消费者十分偏爱企业的产品，愿意购买他们的商品，在这种情况下企业便产生了。
 
