@@ -13,36 +13,34 @@ Our task is to attempt to discover why a firm emerges at ah in a specialized exc
 
 【译文】
 
-①我们的任务是试图发现企业在一个专业化的交换经济中出现的根本原因。价格机制（单纯从资源导向的方面考虑）可以被替代，假如替代价格机制的关系正是其自身所期望的话。②例如，如果一些人愿意在其他一些人的指挥下工作，这一情形就会出现。这些个人为了能在某个人手下工作会接受低报酬，企业便由此自然而然地出现了，但这不能成为企业出现的一个非常重要的理由，似乎更确切地说，还有一种相对立的倾向在起作用，如人们通常趋向于寻求“成为自己的主人”的好处。自然，如果这种愿望不是被人控制，而是控制别人和指挥别人，那么，人们为了能指挥别人可能会愿意放弃某些东西，那就是，他们将愿意支付给别人多于这些人在价格机制下所能得到的报酬，目的是为了能指挥这些人。但这意味着他们是为了能指挥别人而付钱，而不是以指挥别人而赚钱，在大多数情形下这显然是不真实的。如果购买者较之于以其他方式生产的商品更偏爱由企业生产的商品，企业也可能存在；可是，即使在这种偏好（假如它们存在的话）的重要性可以忽略不计的范畴内，③在现实世界中企业仍然存在。因此，必定存在其他相关的因素。（讨论原有经济理论认为企业产生的原因是不成立的）
+<span style="color:blue">①</span>我们的任务是试图发现企业在一个专业化的交换经济中出现的根本原因。价格机制（单纯从资源导向的方面考虑）可以被替代，假如替代价格机制的关系正是其自身所期望的话。<span style="color:blue">②</span>例如，如果一些人愿意在其他一些人的指挥下工作，这一情形就会出现。这些个人为了能在某个人手下工作会接受低报酬，企业便由此自然而然地出现了，但这不能成为企业出现的一个非常重要的理由，似乎更确切地说，还有一种相对立的倾向在起作用，如人们通常趋向于寻求“成为自己的主人”的好处。自然，如果这种愿望不是被人控制，而是控制别人和指挥别人，那么，人们为了能指挥别人可能会愿意放弃某些东西，那就是，他们将愿意支付给别人多于这些人在价格机制下所能得到的报酬，目的是为了能指挥这些人。但这意味着他们是为了能指挥别人而付钱，而不是以指挥别人而赚钱，在大多数情形下这显然是不真实的。如果购买者较之于以其他方式生产的商品更偏爱由企业生产的商品，企业也可能存在；可是，即使在这种偏好（假如它们存在的话）的重要性可以忽略不计的范畴内，<span style="color:blue">③</span>在现实世界中企业仍然存在。因此，必定存在其他相关的因素。（讨论原有经济理论认为企业产生的原因是不成立的）
 
 【注解】5：
 
-①科斯在向那个方向努力呢？科斯的这种努力有效吗？我们从科斯第二章节一开始中看到，科斯是在探寻企业产生原因，就企业产生原因来讲是由多种条件构成的，科斯在此说明他的研究是从“在一个专业化的交换经济”条件下组织研究的。
+<span style="color:blue">①科斯在向那个方向努力呢？科斯的这种努力有效吗？我们从科斯第二章节一开始中看到，科斯是在探寻企业产生原因，就企业产生原因来讲是由多种条件构成的，科斯在此说明他的研究是从“在一个专业化的交换经济”条件下组织研究的。</span>
 
-②科斯在阐述企业的产生时先是采用否定式，第一，否定了企业的产生是由于某些人为了愿意跟随他们喜欢的人，接受更低的报酬，在这种情况下企业便产生了；第二，否定了企业的产生是由于某些人愿意指挥别人，为了能够指挥别人支付给他们相应的报酬，在这种情况下企业便产生了；第三，否定了企业的产生是由于消费者十分偏爱企业的产品，愿意购买他们的商品，在这种情况下企业便产生了。
+<span style="color:blue">②科斯在阐述企业的产生时先是采用否定式，第一，否定了企业的产生是由于某些人为了愿意跟随他们喜欢的人，接受更低的报酬，在这种情况下企业便产生了；第二，否定了企业的产生是由于某些人愿意指挥别人，为了能够指挥别人支付给他们相应的报酬，在这种情况下企业便产生了；第三，否定了企业的产生是由于消费者十分偏爱企业的产品，愿意购买他们的商品，在这种情况下企业便产生了。</span>
 
-③上述三种情况都在现实世界中存在，但又都不是导致企业产生的直接原因，可是企业也仍然存在，那么，导致企业产生的直接原因是什么呢？科斯认为可定存在“其他的相关因素”。
+<span style="color:blue">③上述三种情况都在现实世界中存在，但又都不是导致企业产生的直接原因，可是企业也仍然存在，那么，导致企业产生的直接原因是什么呢？科斯认为可定存在“其他的相关因素”。</span>
 
 The main reason why it is profitable to establish a firm would seem to be that there is a cost of using the price mechanism. The most obvious cost of “organizing” production through the price mechanism is that of discovering what the relevant prices are.18 This cost may be reduced but it will not be eliminated by the emergence of specialists who will sell this information. The costs of negotiating and concluding a separate contract for each exchange transaction which takes place on a market must also be taken into account.19 Again, in certain markets, e.g., produce ex-changes, a technique is devised for minimizing these contract costs; but they are not eliminated. It is true that contracts are not eliminated when there is a firm but they are greatly reduced. A factor of production (or the owner thereof) does not have to make a series of contracts with the factors with whom he is co-operating within the firm, as would be necessary, of course, if this co-operation were as a direct result of the working of the price mechanism. For this series of contracts is substituted one. At this stage, it is important to note the character of the contract into which a factor enters that is employed within a firm. The contract is one whereby the factor, for a certain remuneration (which may be fixed or fluctuating), agrees to obey the directions of an entrepreneur within certain limits.20 The essence of the contract is that it should only state the limits to the powers of the entrepreneur; Within these limits, he can therefore direct the other factors of production.
 
 
 【译文】
 
-①建立企业有利可图的主要原因似乎是，利用价格机制是有成本的。通过价格机制“组织”生产的最明显的成本就是所有发现相对价格的工作。（相对价格）②随着出卖这类信息的专门人员的出现，这种成本有可能减少，但不可能消除。（形成相对价格因素之一）③市场上发生的每一笔交易的谈判和签约的费用也必须考虑在内。（交易费用内涵）再者，在某些市场中（如农产品交易）可以设计出一种技术使契约的成本最小化，但不可能消除这种成本。（形成相对价格因素之二）确实，当存在企业时，契约不会被取消，但却大大减少了。某一生产要素（或它的所有者）不必与企业内部同他合作的一些生产要素签订一系列的契约。当然，如果这种合作是价格机制起作用的一个直接结果，一系列的契约就是必需的。一系列的契约被一个契约替代了。④在此阶段，重要的是注意契约的特性，即注意企业中被雇佣的生产要素是如何进入的。通过契约，生产要素为获得一定的报酬（它可以是固定的也可以是浮动的）同意在一定限度内服从企业家的指挥。契约的性质在于它限定了企业家的权力范围。只有在限定的范围内，他才能指挥其他生产要素。（企业产生原因1。相对价格的发现；2.一系列契约被一个契约替代3.契约特性和性质）
+<span style="color:blue">①</span>建立企业有利可图的主要原因似乎是，利用价格机制是有成本的。通过价格机制“组织”生产的最明显的成本就是所有发现相对价格的工作。<span style="color:red">（相对价格）</span><span style="color:blue">②</span>随着出卖这类信息的专门人员的出现，这种成本有可能减少，但不可能消除。<span style="color:red">（形成相对价格因素之一）</span><span style="color:blue">③</span>市场上发生的每一笔交易的谈判和签约的费用也必须考虑在内。<span style="color:red">（交易费用内涵）</span>再者，在某些市场中（如农产品交易）可以设计出一种技术使契约的成本最小化，但不可能消除这种成本。<span style="color:red">（形成相对价格因素之二）</span>确实，当存在企业时，契约不会被取消，但却大大减少了。某一生产要素（或它的所有者）不必与企业内部同他合作的一些生产要素签订一系列的契约。当然，如果这种合作是价格机制起作用的一个直接结果，一系列的契约就是必需的。一系列的契约被一个契约替代了。<span style="color:blue">④</span>在此阶段，重要的是注意契约的特性，即注意企业中被雇佣的生产要素是如何进入的。通过契约，生产要素为获得一定的报酬（它可以是固定的也可以是浮动的）同意在一定限度内服从企业家的指挥。契约的性质在于它限定了企业家的权力范围。只有在限定的范围内，他才能指挥其他生产要素。（企业产生原因1。相对价格的发现；2.一系列契约被一个契约替代3.契约特性和性质）
 
 
 
 【注解】6：
 
-①通过上述的探讨，科斯得出了一个结论，导致企业产生的直接原因就是利润。他将这个利润描述成：利用价格机制是有成本的，以社会方面利用价格机制是绝对成本，以组织方面利用价格机制可以获得相对成本，绝对成本趋向高，相对成本趋向低，二者之间产生差异，这种差异就是利润。同时，我们还要注意到科斯提出了又一个概念，就是“相对价格”。
+<span style="color:blue">①通过上述的探讨，科斯得出了一个结论，导致企业产生的直接原因就是利润。他将这个利润描述成：利用价格机制是有成本的，以社会方面利用价格机制是绝对成本，以组织方面利用价格机制可以获得相对成本，绝对成本趋向高，相对成本趋向低，二者之间产生差异，这种差异就是利润。同时，我们还要注意到科斯提出了又一个概念，就是“相对价格”。</span>
 
-②能够形成“相对价格”的原因是第一，市场信息提供者的出现，可以减少价格机制的成本；第二，因为市场交易中存在交易费用，又因为市场上设计出了降低这种交易费用的技术。第三，这种技术就是一个企业不再与他的所有合作者签订一系列契约，而只是签订一个契约，这样就降低了交易费用。
+<span style="color:blue">②能够形成“相对价格”的原因是第一，市场信息提供者的出现，可以减少价格机制的成本；第二，因为市场交易中存在交易费用，又因为市场上设计出了降低这种交易费用的技术。第三，这种技术就是一个企业不再与他的所有合作者签订一系列契约，而只是签订一个契约，这样就降低了交易费用。</span>
 
-③科斯在这里阐述了交易费用的概念，他认为无论市场上还是企业内都存在着交易费用，这些费用包含谈判费用、签约费用，合为契约费用，契约费用在市场上呈现的要多，而在企业中呈现的要低。
+<span style="color:blue">③科斯在这里阐述了交易费用的概念，他认为无论市场上还是企业内都存在着交易费用，这些费用包含谈判费用、签约费用，合为契约费用，契约费用在市场上呈现的要多，而在企业中呈现的要低。</span>
 
-④这里科斯又明确了契约的特性、契约的性质和契约的作用。
-
-
+<span style="color:blue">④这里科斯又明确了契约的特性、契约的性质和契约的作用。</span>
 
 
 There are, however, other disadvantages - or costs - of using the price mechanism. It may be desired to make a long-term contract for the supply of some article or service. This may be due to the fact that if one contract is made for a longer period, instead of several shorter ones, then certain costs of making each contract will be avoided. Or, owing to the risk attitude of the people concerned, they may prefer to make a long rather than a short-term contract. Now, owing to the difficulty of forecasting, the longer the period of the contract is for the supply of the commodity or service, the less possible, and indeed, the less desirable it is for the person purchasing to specify what the other contracting party is expected to do. It may well be a matter of indifference to the person supplying the service or commodity which of several courses of action is taken, but not to the purchaser of that service or commodity. But the purchaser will not know which of these several courses he will want the supplier to take. Therefore, the service which is being provided is expressed in general terms, the exact details being left until a later date. All that is stated in the contract is the limits to what the persons supplying the commodity or service is expected to do. The details of what the supplier is expected to do is not stated in the contract but is decided later by the purchaser. When the direction of resources (within the limits of the contract) becomes dependent on the buyer in this way, that relationship which I term a "firm" may be obtained.21 A firm is likely therefore to emerge in those cases where a very short-term contract would be unsatisfactory. It is obviously of more importance in the case of services -labor-than it is in the case of the buying of commodities. In the case of commodities, the main items can be stated in advance and the details which will be decided later will be of minor significance.
