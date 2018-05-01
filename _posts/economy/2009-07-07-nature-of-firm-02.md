@@ -8,7 +8,7 @@ keywords: 企业的性质,科斯
 
 罗纳德·哈里·科斯（Ronald H.  Coase），著名经济学家，新制度经济学鼻祖。科斯因发现并阐明了交易成本和产权在经济组织和制度结构中的重要性及其在经济活动中的作用而获得1991年诺贝尔经济学奖。科斯在其1937年发表的文章《企业的性质》一文中，首次创造性地提出了“交易费用”的概念，并以此来解释企业存在的原因以及企业扩展的边界问题。该篇文章也成为新制度经济学的开山之作。笔者打算通过几篇博文的内容来对《企业的性质》进行详细解读，本文是系列中的第二篇。
 
-II<\br>
+II</br>
 
 Our task is to attempt to discover why a firm emerges at ah in a specialized exchange economy. The price mechanism (considered purely from the side of the direction of resources) might be superseded if the relationship which replaced it was desired for its own sake. This would be the case, for example, if some people preferred to work under the direction of some other person. Such individuals would accept less in order to work under someone, and firms would arise naturally from this. But it would appear that this cannot be a very important reason, for it would rather seem that the opposite tendency is operating if one judges from the stress normally laid on the advantage of “being one's own master;”15 0f course, if the desire was not to be controlled but to control, to exercise power over others, then people might be willing to give Up something in order to direct others; that is, they would be willing to pay others more than they could get under the price mechanism in order to be able to direct them. But this implies that those who direct pay in order to be able to do this and are not paid to direct, which is clearly not true in the majority of cases.16 Firms might also exist if purchasers preferred commodities which are produced by firms to those not 50 produced; but even in spheres where one would expect such preferences (if they exist) to be of negligible importance, firms are to be found in the real world.17 Therefore there must be other elements involved.
 
@@ -65,26 +65,26 @@ These, then, are the reasons why organizations such as firms exist in a speciali
 
 【译文】
 
-⑥另一个应该注意的因素是，有管制力量的政府或其他机构常常对市场交易和在企业内部组织同样的交易区别对待。如果我们考察一下销售税的课征就会看到，显然，它是一种有关市场交易而不是在企业内部组织的同样交易的税收。既然现在有两种不同的可供选择的“组织”方法，通过价格机制或通过企业家，那么这样的政府管制便会导致企业的存在，不然企业的存在就没有任何理由和目的。（企业产生的条件是因为不同销售税）这为在一个专业化的交换经济中企业的出现提供了一个理由。⑦当然，对于企业已经存在的情形而言，诸如销售税这样的措施只不过会使企业变得比原来更大。同样，意味着定量配给的配额和价格控制的办法对于那些为自己生产产品的企业是没有作用的，这等于给那些在企业内部组织生产而不通过市场的企业以好处，必然鼓励企业规模的扩大。但是，上述这些作为监督、管理的措施会导致企业的出现，这一点是令人难以置信的。然而，如果企业的存在没有其他理由，那么这些措施会产生这样的结果。（政府这种做法是鼓励企业将规模扩大）
+<span style="color:blue">⑥</span>另一个应该注意的因素是，有管制力量的政府或其他机构常常对市场交易和在企业内部组织同样的交易区别对待。如果我们考察一下销售税的课征就会看到，显然，它是一种有关市场交易而不是在企业内部组织的同样交易的税收。既然现在有两种不同的可供选择的“组织”方法，通过价格机制或通过企业家，那么这样的政府管制便会导致企业的存在，不然企业的存在就没有任何理由和目的。（企业产生的条件是因为不同销售税）这为在一个专业化的交换经济中企业的出现提供了一个理由。<span style="color:blue">⑦</span>当然，对于企业已经存在的情形而言，诸如销售税这样的措施只不过会使企业变得比原来更大。同样，意味着定量配给的配额和价格控制的办法对于那些为自己生产产品的企业是没有作用的，这等于给那些在企业内部组织生产而不通过市场的企业以好处，必然鼓励企业规模的扩大。但是，上述这些作为监督、管理的措施会导致企业的出现，这一点是令人难以置信的。然而，如果企业的存在没有其他理由，那么这些措施会产生这样的结果。（政府这种做法是鼓励企业将规模扩大）
 
 因此，以上这些就是在一个通常被假定由价格机制“组织”资源分配的专业化交换经济中，诸如企业这类组织存在的原因。所以，当资源的导向依赖于企业家时，由一些关系系统构成的企业就开始出现了。（做出企业产生原因的结论）
 
 
 【注解】7：
 
-①明确了长期性契约比短期性契约更能够节省交易费用。
+<span style="color:blue">①明确了长期性契约比短期性契约更能够节省交易费用。</span>
 
-②讨论长期契约对于购买方和供应方存在不同的态度，在什么情况下容易形成长期契约，在什么情况下能够形成短期契约的理由。
+<span style="color:blue">②讨论长期契约对于购买方和供应方存在不同的态度，在什么情况下容易形成长期契约，在什么情况下能够形成短期契约的理由。</span>
 
-③在这里最为关键的话是：“市场运行是有成本的，┄┄┄就能节约某些市场运行成本。”这段话阐明了企业的性质，其性质就是企业运行成本低于市场运行成本，从中企业可以得到应有的利润。
+<span style="color:blue">③在这里最为关键的话是：“市场运行是有成本的，┄┄┄就能节约某些市场运行成本。”这段话阐明了企业的性质，其性质就是企业运行成本低于市场运行成本，从中企业可以得到应有的利润。</span>
 
-④那么企业利润是如何形成的呢？科斯总结为企业家需要也是必须在低成本原则下行使他们的职能，这种职能直接表现为“他可以以低于他所替代的市场交易的价格得到生产要素。”
+<span style="color:blue">④那么企业利润是如何形成的呢？科斯总结为企业家需要也是必须在低成本原则下行使他们的职能，这种职能直接表现为“他可以以低于他所替代的市场交易的价格得到生产要素。”</span>
 
-⑤奈特：详见【注】2：⑩奈特注解，奈特将企业的性质归结为企业的劳务输出和输入之间费用支出的差异，科斯对此并不认同，他讲：“重要的问题看来是，资源的配置为什么没有直接通过价格机制来完成。”
+<span style="color:blue">⑤奈特：详见【注】2：⑩奈特注解，奈特将企业的性质归结为企业的劳务输出和输入之间费用支出的差异，科斯对此并不认同，他讲：“重要的问题看来是，资源的配置为什么没有直接通过价格机制来完成。”</span>
 
-⑥我们从上面的这段话中可以看出，导致企业的产生因素还有一种是政府征收的营业税，在资本主义制度条件下，政府向市场上征收的税金要比向企业征收的税金要高，这也形成企业有利可图。
+<span style="color:blue">⑥我们从上面的这段话中可以看出，导致企业的产生因素还有一种是政府征收的营业税，在资本主义制度条件下，政府向市场上征收的税金要比向企业征收的税金要高，这也形成企业有利可图。</span>
 
-⑦在这里科斯又提出了关于企业规模的问题，他在讨论企业规模为什么扩大的原因时说明，“诸如销售税这样的措施只不过会使企业变得比原来更大”，因为政府在销售税方面给与企业更多优惠的原因，可以使企业获得更大的利益而发展的更快。
+<span style="color:blue">⑦在这里科斯又提出了关于企业规模的问题，他在讨论企业规模为什么扩大的原因时说明，“诸如销售税这样的措施只不过会使企业变得比原来更大”，因为政府在销售税方面给与企业更多优惠的原因，可以使企业获得更大的利益而发展的更快。</span>
 
 
 
@@ -135,17 +135,17 @@ First, as a firm gets larger, there may be decreasing returns to the entrepreneu
 
 【注解】8：
 
-①在这里科斯重点研究的是企业规模问题，对于政府税金能够导致企业规模变大变小的分析，科斯认为只是一种轮廓的描述，不是很全面和深刻。
+<span style="color:blue">①在这里科斯重点研究的是企业规模问题，对于政府税金能够导致企业规模变大变小的分析，科斯认为只是一种轮廓的描述，不是很全面和深刻。</span>
 
-②对于交易量的大小能否决定企业规模大小这个问题上，科斯提出了一个“假设”条件下的容易解决的条件，以此来提出研究决定企业规模变大变小的力量是否有可能的问题。进而设定假如企业规模是有交易量决定的，那么，“为什么企业家不少组织点或多组织点交易呢？”。
+<span style="color:blue">②对于交易量的大小能否决定企业规模大小这个问题上，科斯提出了一个“假设”条件下的容易解决的条件，以此来提出研究决定企业规模变大变小的力量是否有可能的问题。进而设定假如企业规模是有交易量决定的，那么，“为什么企业家不少组织点或多组织点交易呢？”。</span>
 
-③科斯在这里又一次提到奈特教授的观点，那么奈特教授的观点是如何呢？奈特从效率与规模角度分析的，奈特把企业效率与规模之间的关系归结为人格和历史机遇，同时垄断竞争为企业规模的扩张提供了条件，在这种前提下企业规模越大其效率越低，即使在有限竞争条件下这种关系也是一样的。
+<span style="color:blue">③科斯在这里又一次提到奈特教授的观点，那么奈特教授的观点是如何呢？奈特从效率与规模角度分析的，奈特把企业效率与规模之间的关系归结为人格和历史机遇，同时垄断竞争为企业规模的扩张提供了条件，在这种前提下企业规模越大其效率越低，即使在有限竞争条件下这种关系也是一样的。</span>
 
-④科斯针对奈特的观点提出既然企业能够消除一定的成本，那么市场交易为什么还存在？为什么生产不交给一个更大的企业来完成？这样两问题。
+<span style="color:blue">④科斯针对奈特的观点提出既然企业能够消除一定的成本，那么市场交易为什么还存在？为什么生产不交给一个更大的企业来完成？这样两问题。</span>
 
-⑤科斯企业规模扩张论（暂且按这种提法）：第一种情况是，企业规模扩大会导致交易费用上升，企业成本加大，但是，企业扩大的条件应当是企业内部交易费用与市场上交易费用相等，在这种条件下企业规模才能扩大，（交易费用等于零）；第二种情况是，由于企业规模扩大，产生经济效率降低，使企业成本加大；第三种情况是，企业规模扩大必须是企业出现的亏损，形成企业成本，而这种成本必须与市场上的交易成本相等；第四种情况是，由于生产要素价格上升，企业规模扩大没有优势，而企业规模变小才有优势。
+<span style="color:blue">⑤科斯企业规模扩张论（暂且按这种提法）：第一种情况是，企业规模扩大会导致交易费用上升，企业成本加大，但是，企业扩大的条件应当是企业内部交易费用与市场上交易费用相等，在这种条件下企业规模才能扩大，（交易费用等于零）；第二种情况是，由于企业规模扩大，产生经济效率降低，使企业成本加大；第三种情况是，企业规模扩大必须是企业出现的亏损，形成企业成本，而这种成本必须与市场上的交易成本相等；第四种情况是，由于生产要素价格上升，企业规模扩大没有优势，而企业规模变小才有优势。</span>
 
-⑥科斯指出企业规模扩大可能是由上述多种条件决定的，至于第一种情况和第二种情况正是当时经济学家们认同的观点，即“管理收益递减”的观点。
+<span style="color:blue">⑥科斯指出企业规模扩大可能是由上述多种条件决定的，至于第一种情况和第二种情况正是当时经济学家们认同的观点，即“管理收益递减”的观点。</span>
 
 
 The point has been made in the previous paragraph that a firm will tend to expand until the costs of organizing an extra transaction within the firm become equal to the costs of carrying out the same transaction by means of an exchange on the open market or the costs of organizing in another firm. But if the firm stops its expansion at a point below the costs of marketing in the open market and at a point equal to the costs of organizing in another firm, in most cases (excluding the case of "combination"28), this will imply that there is a market transaction between these two procedures, each of whom could organize it at less than the actual marketing costs. How is the paradox to be resolved? If we consider an example the reason for this will become clear. Suppose A is buying a product from B and that both A and B could organize this marketing transaction at less than its present cost. B, we can assume, is not organizing one process or stage of production, but several. If A therefore wishes to avoid a market transaction, he will have to take over all the processes of production controlled by B. Unless A takes over ail the processes of production, a market transaction will still remain, although it is a different product that is bought. But we have previously assumed that as each producer expands he becomes less efficient; the additional costs of organizing extra transactions increase. It is probable that A's cost of organizing the transactions previously organized by B will be greater than B's costs of doing the same thing. A therefore will take over the whole of B's organization only if his cost of organizing B's work is not greater than B's cost by an amount equal to the costs of carrying out an exchange transaction on the open market. But once it becomes economical to have a market transaction, it also pays to divide production in such a way that the cost of organizing an extra transaction in each firm is the same.
@@ -183,21 +183,21 @@ c. the greater the lowering (or the less the rise) in the supply price of factor
 
 【注解】9：
 
-①企业在积极的扩张中并不是无止境的，那么，企业在什么时候扩张停止呢？科斯回答：企业内部交易成本与市场交易成本相等时候企业扩张就停止了。
+<span style="color:blue">①企业在积极的扩张中并不是无止境的，那么，企业在什么时候扩张停止呢？科斯回答：企业内部交易成本与市场交易成本相等时候企业扩张就停止了。</span>
 
-②当企业内部交易成本低于市场交易成本时候，就会存在另一个企业以同样低于市场交易成本在市场上组织交易，这样就在同一个市场上存在两个企业共同组织生产，此时企业扩张又是如何变化呢？
+<span style="color:blue">②当企业内部交易成本低于市场交易成本时候，就会存在另一个企业以同样低于市场交易成本在市场上组织交易，这样就在同一个市场上存在两个企业共同组织生产，此时企业扩张又是如何变化呢？</span>
 
-③科斯用一个案例来解释这样情况，在同一个市场上，为了避免两个企业同时在市场上组织生产和组织交易，只有由一个企业购买或接管另一个企业的全部生产和交易，否则，同时在市场上交易的现象不可避免。
+<span style="color:blue">③科斯用一个案例来解释这样情况，在同一个市场上，为了避免两个企业同时在市场上组织生产和组织交易，只有由一个企业购买或接管另一个企业的全部生产和交易，否则，同时在市场上交易的现象不可避免。</span>
 
-④同时科斯给出一个企业购买或接管另一个企业的条件，这个条件就是想要购买或接管另一个企业的企业，他必须是为了购买或接管这个企业后所生产的成本低于原有企业所生产的成本，并且新的企业产生的成本与当时市场交易成本相等，才能完成购买或接管。
+<span style="color:blue">④同时科斯给出一个企业购买或接管另一个企业的条件，这个条件就是想要购买或接管另一个企业的企业，他必须是为了购买或接管这个企业后所生产的成本低于原有企业所生产的成本，并且新的企业产生的成本与当时市场交易成本相等，才能完成购买或接管。</span>
 
-⑤当市场交易成本低于企业成本时候，企业将会分开，回归原有的状态。
+<span style="color:blue">⑤当市场交易成本低于企业成本时候，企业将会分开，回归原有的状态。</span>
 
-⑥上面所有的讨论都是依据一个“假设”的前提条件，即“通过价格机制发生的市场交易是同质”（同质：企业内部交易成本与市场交易成本相等）的情况下讨论企业规模扩大问题。
+<span style="color:blue">⑥上面所有的讨论都是依据一个“假设”的前提条件，即“通过价格机制发生的市场交易是同质”（同质：企业内部交易成本与市场交易成本相等）的情况下讨论企业规模扩大问题。</span>
 
-⑦实际情况是企业内部交易成本与市场交易成本之间是不相等同的，二者之间存在较大差异，这是事实。更有可能的是企业内部交易成本会大于市场交易成本，这也是事实，当这样的情况出现，科斯进一步问道：市场上还必须出现一个以上的企业吗？
+<span style="color:blue">⑦实际情况是企业内部交易成本与市场交易成本之间是不相等同的，二者之间存在较大差异，这是事实。更有可能的是企业内部交易成本会大于市场交易成本，这也是事实，当这样的情况出现，科斯进一步问道：市场上还必须出现一个以上的企业吗？</span>
 
-⑧科斯自己回答：“显然不是”，不是的原因是因为资本主义制度下的市场体制，价格机制涉及到的所有领域对资源配置失去作用和控制，所以社会资源可以被组织到一个企业中去。
+<span style="color:blue">⑧科斯自己回答：“显然不是”，不是的原因是因为资本主义制度下的市场体制，价格机制涉及到的所有领域对资源配置失去作用和控制，所以社会资源可以被组织到一个企业中去。</span>
 
 
 
