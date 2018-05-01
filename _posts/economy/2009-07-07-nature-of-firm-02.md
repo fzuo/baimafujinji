@@ -8,7 +8,7 @@ keywords: 企业的性质,科斯
 
 罗纳德·哈里·科斯（Ronald H.  Coase），著名经济学家，新制度经济学鼻祖。科斯因发现并阐明了交易成本和产权在经济组织和制度结构中的重要性及其在经济活动中的作用而获得1991年诺贝尔经济学奖。科斯在其1937年发表的文章《企业的性质》一文中，首次创造性地提出了“交易费用”的概念，并以此来解释企业存在的原因以及企业扩展的边界问题。该篇文章也成为新制度经济学的开山之作。笔者打算通过几篇博文的内容来对《企业的性质》进行详细解读，本文是系列中的第二篇。
 
-II</br>
+### II<br>
 
 Our task is to attempt to discover why a firm emerges at ah in a specialized exchange economy. The price mechanism (considered purely from the side of the direction of resources) might be superseded if the relationship which replaced it was desired for its own sake. This would be the case, for example, if some people preferred to work under the direction of some other person. Such individuals would accept less in order to work under someone, and firms would arise naturally from this. But it would appear that this cannot be a very important reason, for it would rather seem that the opposite tendency is operating if one judges from the stress normally laid on the advantage of “being one's own master;”15 0f course, if the desire was not to be controlled but to control, to exercise power over others, then people might be willing to give Up something in order to direct others; that is, they would be willing to pay others more than they could get under the price mechanism in order to be able to direct them. But this implies that those who direct pay in order to be able to do this and are not paid to direct, which is clearly not true in the majority of cases.16 Firms might also exist if purchasers preferred commodities which are produced by firms to those not 50 produced; but even in spheres where one would expect such preferences (if they exist) to be of negligible importance, firms are to be found in the real world.17 Therefore there must be other elements involved.
 
