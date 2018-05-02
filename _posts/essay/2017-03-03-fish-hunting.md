@@ -32,9 +32,9 @@ keywords: 退而结网
 
 同时推荐两篇写于更早前的文章，可作为本文很好的补充。
 
-【1】《知易行难——从“等待”到“穿越”》
+【1】[《知易行难——从“等待”到“穿越”》](https://fzuo.github.io/2010/11/19/general-wait-essay.html)
 
-【2】《想事、做事和成事》
+【2】[《想事、做事和成事》](https://fzuo.github.io/2010/10/23/think-and-action.html)
 
 
 <span style="color:blue">**（本文完）**</span>
