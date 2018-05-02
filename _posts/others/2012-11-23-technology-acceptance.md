@@ -19,7 +19,7 @@ TAM以认知有用和认知易用为独立变数，使用者态度、行为意�
 其模型如下图所示：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/TAM01.png" width="420">
+<img src="https://fzuo.github.io/assets/img/TAM01.png" width="450">
 </p>
 
 针对本模型之主要变量，说明如下：
@@ -53,7 +53,7 @@ Davis（1992）以动机理论（motivation theory）来讨论人们对于科技
 后来，又有许多学者提出了TAM的很多改进版本，例如下图是Adams 等人在1992年提出的TAM 修正模型：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/TAM02.png" width="420">
+<img src="https://fzuo.github.io/assets/img/TAM02.png" width="450">
 </p>
 
 Davis（1993）则是认为系统的特征会对使用者的认知和行为，产生影响。该研究使用原始的科技接受模式，并以系统特征为外部变数，影响认知易用和认知有用。以电子邮件和文字编辑器两种不同的系统做为外部变数，样本为112
