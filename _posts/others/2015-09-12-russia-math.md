@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 斯大林帝国的杀手锏与俄罗斯复兴的真正大王牌
+title: 斯大林的杀手锏与俄国复兴的真正大王牌
 category: 闲话二三事
 tags: Math History
 keywords: 数学,俄罗斯
