@@ -16,7 +16,7 @@ keywords: 生产函数
 经过一番处理，基于1899 年至1922 年间的数据，柯布与道格拉斯得到了如下所示之形式的生成函数（后来被称为柯布-道格拉斯生产函数）：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/cobb_func.png", heighth="50">
+<img src="https://fzuo.github.io/assets/img/cobb_func.png", height="50">
 </p>
 
 其中，Y 表示总产出，L表示投入的劳力（≥0），K 表示投入的资本（≥0），A 是全要素生产率（或称为技术水平），α 与 β 分别为劳力与资本的生产力弹性。
