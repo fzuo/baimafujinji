@@ -84,38 +84,55 @@ Only one task now remains; and that is, to see whether the concept of a firm whi
 
 【译文】
 
-①现在唯一剩下的问题是，看一看已经发展起来的企业概念是不是与现实世界中的情况相一致。②通过考虑通常被称为“主人与仆人”或“雇主与雇员”的法律关系，我们能很好地研究现实中企业的构成问题。这种关系的实质列举如下：
+<span style="color:blue">①</span>现在唯一剩下的问题是，看一看已经发展起来的企业概念是不是与现实世界中的情况相一致。<span style="color:blue">②</span>通过考虑通常被称为“主人与仆人”或“雇主与雇员”的法律关系，我们能很好地研究现实中企业的构成问题。这种关系的实质列举如下：
+  
 “（1）仆人必须向主人或主人的其他代理人承担提供个人劳务的义务，而契约就是有关物品或类似物品的出售的契约。
+
 （2）主人必须有权亲自或者通过另一个仆人或代理人控制仆人的工作。有权告诉仆人何时工作（在服务时间内）和何时不工作，以及做什么工作和如何去做（在服务范围内），这种控制和干预的权利就是这种关系的性质特征，它从独立的缔约人或从仅向其雇主提供其劳动成果的雇员中区分出了仆人。在后一种情形中，缔约人或执行人不是在雇主的控制下做工作和提供劳务，而是他必须计划和设法完成他的工作，以便实现他答应提供的结果。”
 
 We thus see that it is the fact of direction which is the essence of the legal concept of "employer and employee," just as it was in the economic concept which was developed above. It is interesting to note that Professor Batt says further: 
 “That which distinguishes an agent from a servant is not the absence or presence of a fixed wage or the payment only of commission on business done, but rather the freedom with which an agent may carry out his employment.”51
 
 We can therefore conclude that the definition we have given is one which approximates closely to the firm as it is considered in the real world.
+
 Our definition is, therefore, realistic. Is it manageable? This ought to be clear; When we are considering how large a firm will be the principle of marginalism works smoothly. The question always is, will it pay to bring an extra exchange transaction under the organizing authority? At the margin, the costs of organizing within the firm will be equal either to the costs of organizing in another firm or to the costs involved in leaving the transaction to be "organized" by the price mechanism. Business men will be constantly experimenting, controlling more or less, and in this way, equilibrium will be maintained. This gives the position of equilibrium for static analysis. But it is clear that the dynamic factors are also of considerable importance, and an investigation of the effect changes have on the cost of organizing within the firm and on marketing costs generally will enable one to explain why firms get larger and smaller; We thus have a theory of moving equilibrium. The above analysis would also appear to have clarified the relationship between initiative or enterprise and management. Initiative means forecasting and operates through the price mechanism by the making of new contracts. Management proper merely reacts to price changes, rearranging the factors of production under its control. That the business man normally combines both functions is an obvious result of the marketing costs which were discussed above. Finally, this analysis enables us to state more exactly what is meant by the "marginal product" of the entrepreneur. But an elaboration of this point would take us far from our comparatively simple task of definition and clarification.
 
 
 【译文】
 
-③由此可见，指挥是“雇主与雇员”这种法律关系的实质，这正是上文所提出的经济概念。巴特教授的话是值得注意的
+<span style="color:blue">③</span>由此可见，指挥是“雇主与雇员”这种法律关系的实质，这正是上文所提出的经济概念。巴特教授的话是值得注意的
+  
 “代理人与仆人的区别并不是存在或不存在固定工资或由企业专门委员会决定的报酬，而是代理人有就业的自由。”
-④由此我们可以得出结论，我们给出的定义与现实世界中的企业是非常接近的。因此，我们的定义是现实的。⑤那么，我们的定义能应用吗？答案显然是肯定的。⑥当我们考虑企业应多大时，边际原理就会顺利地发挥作用。⑦这个问题始终是，在组织权威下增加额外交易要付出代价吗？在边际点上，在企业内部组织交易的成本或是等于在另一个企业中的组织成本，或是等于由价格机制“组织”这笔交易所包含的成本。实业家们不断地进行实验，多控制一点或少控制一点交易，用这个办法来维持均衡。这就为静态分析提供了均衡状态。⑧但显然，动态因素也是相当重要的。一般只有对引起企业内部组织成本和市场成本的变化作了调查，才能说明企业规模为什么扩大或缩小。我们因此有了滚动均衡理论。⑨上面的分析也似乎澄清了经营和管理之间的关系。经营意味着预测和通过签订新的契约、利用价格机制进行操作。管理则恰恰意味着仅仅对价格变化作出反应，并在其控制下重新安排生产要素。实业家们通常具有这两种功能是上面所讨论的市场成本的明显结果。⑩最后，这样的分析就使我们更准确地叙述企业家的“边际产品”的含义。但对这一点的详细描述会使我们远远超出相形之下较为简单的定义和分类的任务。
+
+<span style="color:blue">④</span>由此我们可以得出结论，我们给出的定义与现实世界中的企业是非常接近的。因此，我们的定义是现实的。<span style="color:blue">⑤</span>那么，我们的定义能应用吗？答案显然是肯定的。<span style="color:blue">⑥</span>当我们考虑企业应多大时，边际原理就会顺利地发挥作用。⑦这个问题始终是，在组织权威下增加额外交易要付出代价吗？在边际点上，在企业内部组织交易的成本或是等于在另一个企业中的组织成本，或是等于由价格机制“组织”这笔交易所包含的成本。实业家们不断地进行实验，多控制一点或少控制一点交易，用这个办法来维持均衡。这就为静态分析提供了均衡状态。<span style="color:blue">⑧</span>但显然，动态因素也是相当重要的。一般只有对引起企业内部组织成本和市场成本的变化作了调查，才能说明企业规模为什么扩大或缩小。我们因此有了滚动均衡理论。<span style="color:blue">⑨</span>上面的分析也似乎澄清了经营和管理之间的关系。经营意味着预测和通过签订新的契约、利用价格机制进行操作。管理则恰恰意味着仅仅对价格变化作出反应，并在其控制下重新安排生产要素。实业家们通常具有这两种功能是上面所讨论的市场成本的明显结果。<span style="color:blue">⑩</span>最后，这样的分析就使我们更准确地叙述企业家的“边际产品”的含义。但对这一点的详细描述会使我们远远超出相形之下较为简单的定义和分类的任务。
 
 【注解】13：
 
-①科斯对企业性质的研究按照罗宾逊夫人关于“假设”的两个条件，其一，这种假设是否容易解释；其二，这种假设是否与现实世界相符。科斯在基本完成了“假设”条件中的第一个条件基础上，继续论述符合“假设”条件中的第二个条件，即，这种假设是否与现实世界吻合。
-②在这里我们看看关于企业的性质课题科斯是怎样解释的：
-第一，企业组织中雇主与雇员之间的法律关系是企业性质在现实世界中具体体现；
-第二，企业组织中雇主与雇员之间的法律关系是依靠契约固定下来的；
-第三，这种契约明确了雇主与雇员之间的权利和义务，雇主依靠他的权利支配和指挥雇员，雇员则依靠他的义务服从雇主的控制和支配；
-③透过雇主与雇员之间的法律关系，科斯看出它们的实质就是指挥，（当然也包括组织、协调和控制），那么，指挥不属于法律范畴而是经济范畴。
-④进而科斯得出了结论：关于企业的性质的论证是与现实世界相吻合的。
-⑤科斯继续论证关于企业性质的结论在现实世界中是否能使用，其答案是肯定的：
-⑥利用这个结论在解释企业规模扩大时，企业边际原理就会发挥作用
-⑦利用这个结论在企业与企业家们可以有效地控制企业内部的成本，维持成本与效益之间的静态平衡。
-⑧利用这个结论企业在动态状况下，企业内部交易成本与市场交易成本经过比较，决定企业规模是否扩大或缩小，进而形成了滚动均衡理论。
-⑨利用这个结论可以解释企业的经营与管理之间的关系，即：“经营意味着预测和通过签订新的契约、利用价格机制进行操作。管理则恰恰意味着仅仅对价格变化作出反应，并在其控制下重新安排生产要素。”
-⑩利用这个结论可以“使我们更准确地叙述企业家的“边际产品”的含义。”
+<span style="color:blue">①科斯对企业性质的研究按照罗宾逊夫人关于“假设”的两个条件，其一，这种假设是否容易解释；其二，这种假设是否与现实世界相符。科斯在基本完成了“假设”条件中的第一个条件基础上，继续论述符合“假设”条件中的第二个条件，即，这种假设是否与现实世界吻合。</span>
+
+<span style="color:blue">②在这里我们看看关于企业的性质课题科斯是怎样解释的：</span>
+
+- <span style="color:blue">第一，企业组织中雇主与雇员之间的法律关系是企业性质在现实世界中具体体现；</span>
+
+- <span style="color:blue">第二，企业组织中雇主与雇员之间的法律关系是依靠契约固定下来的；</span>
+
+- <span style="color:blue">第三，这种契约明确了雇主与雇员之间的权利和义务，雇主依靠他的权利支配和指挥雇员，雇员则依靠他的义务服从雇主的控制和支配；</span>
+
+<span style="color:blue">③透过雇主与雇员之间的法律关系，科斯看出它们的实质就是指挥，（当然也包括组织、协调和控制），那么，指挥不属于法律范畴而是经济范畴。</span>
+
+<span style="color:blue">④进而科斯得出了结论：关于企业的性质的论证是与现实世界相吻合的。</span>
+
+<span style="color:blue">⑤科斯继续论证关于企业性质的结论在现实世界中是否能使用，其答案是肯定的：</span>
+
+<span style="color:blue">⑥利用这个结论在解释企业规模扩大时，企业边际原理就会发挥作用</span>
+
+<span style="color:blue">⑦利用这个结论在企业与企业家们可以有效地控制企业内部的成本，维持成本与效益之间的静态平衡。</span>
+
+<span style="color:blue">⑧利用这个结论企业在动态状况下，企业内部交易成本与市场交易成本经过比较，决定企业规模是否扩大或缩小，进而形成了滚动均衡理论。</span>
+
+<span style="color:blue">⑨利用这个结论可以解释企业的经营与管理之间的关系，即：“经营意味着预测和通过签订新的契约、利用价格机制进行操作。管理则恰恰意味着仅仅对价格变化作出反应，并在其控制下重新安排生产要素。”</span>
+
+<span style="color:blue">⑩利用这个结论可以“使我们更准确地叙述企业家的“边际产品”的含义。”</span>
 
 【评注】
 
@@ -123,11 +140,7 @@ Our definition is, therefore, realistic. Is it manageable? This ought to be clea
 
 此部分主要说明了论文中给出的企业概念与真实存在的企业的一致性。
 
-               - 科斯说：“我们给出的企业定义与现实中的企业定义十分相近。而且，这个定义当然可行。当思考企业的规
-               
-          模应该多大时，边际原理就会很好地发挥作用……在边际上，企业内部组织交易的成本，或者与另一企业组
-                 织此交易成本相等，或者与价格机制组织此交易的成本相等……一般来说，只有研究企业内部组织成本和市
-                 场交易成本变化的影响，才能解释企业扩大或缩小的原因。因此我们获得了移动均衡理论”。
+- 科斯说：“我们给出的企业定义与现实中的企业定义十分相近。而且，这个定义当然可行。当思考企业的规模应该多大时，边际原理就会很好地发挥作用……在边际上，企业内部组织交易的成本，或者与另一企业组织此交易成本相等，或者与价格机制组织此交易的成本相等……一般来说，只有研究企业内部组织成本和市场交易成本变化的影响，才能解释企业扩大或缩小的原因。因此我们获得了移动均衡理论”。
 
 
 <span style="color:blue">**(全文完）**</span>
