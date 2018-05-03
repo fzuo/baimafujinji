@@ -16,7 +16,7 @@ $ man whereis
 
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/linux_command/linux_command01.png" width="400">
+<img src="https://fzuo.github.io/assets/img/linux_command/linux_command_01.png" width="400">
 </p>
 
 2. whereis app —— show possible locations of app
@@ -43,7 +43,7 @@ cd ~ —— go to your home directory
 cd - —— go to the last directory you were just in
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/linux_command/linux_command02.png" width="400">
+<img src="https://fzuo.github.io/assets/img/linux_command/linux_command_02.png" width="400">
 </p>
 
 ### File  Viewing
@@ -54,7 +54,7 @@ cd - —— go to the last directory you were just in
 10. nl —— number lines
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/linux_command/linux_command03.png" width="400">
+<img src="https://fzuo.github.io/assets/img/linux_command/linux_command_03.png" width="400">
 </p>
 
 ### File Properties/Permissions
@@ -63,7 +63,7 @@ cd - —— go to the last directory you were just in
 12. stat —— display file attributes
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/linux_command/linux_command04.png" width="400">
+<img src="https://fzuo.github.io/assets/img/linux_command/linux_command_04.png" width="400">
 </p>
 
 13. chmod ugo file —— change permissions of file to ugo, where u is the user's permission, g is the group's permissions, and o is the everyone else's permission. The walues of u, g, and o can bu any number between 0 and 7. (4: read, 2: write, 1: execute)
@@ -76,7 +76,7 @@ chmod 644: you can read and wirte, and everyone else can only read
 15. chown —— change file owner
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/linux_command/linux_command05.png" width="400">
+<img src="https://fzuo.github.io/assets/img/linux_command/linux_command_05.png" width="400">
 </p>
 
 ### IO Redirection
@@ -85,13 +85,13 @@ chmod 644: you can read and wirte, and everyone else can only read
 例如，在下图中，我们首先在命令上输入 cat > my_file，然后系统会自动在当前文件夹下创建一个名为my_file的文件，然后我们在Terminal上输入的文字将被写入my_file中，直到我们在键盘上输入CTRL + d 时返回。这时我们打开my_file文件，可以发现之前的内容已经被成功写入了。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/linux_command/linux_command06.png" width="400">
+<img src="https://fzuo.github.io/assets/img/linux_command/linux_command_06.png" width="400">
 </p>
 
 17. cmd > file —— Standard output (stdout) of cmd to file
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/linux_command/linux_command07.png" width="400">
+<img src="https://fzuo.github.io/assets/img/linux_command/linux_command_07.png" width="400">
 </p>
 
 18. cmd >> file ——  Append stdout to file
