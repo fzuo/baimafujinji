@@ -11,7 +11,7 @@ keywords: Linux,命令
 
 1. `man` command —— show the manual for command
 
-    man whereis
+    ```man whereis```
 
 <p align="center">
 <img src="https://fzuo.github.io/assets/img/linux_command/linux_command_01.png" width="500">
