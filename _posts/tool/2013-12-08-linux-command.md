@@ -7,27 +7,30 @@ keywords: Linux,命令
 ---
 
 
-
-
 ### System
 
-1. man command —— show the manual for command
-$ man whereis
+1. `man` command —— show the manual for command
 
+    $ man whereis
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/linux_command/linux_command_01.png" width="400">
+<img src="https://fzuo.github.io/assets/img/linux_command/linux_command_01.png" width="500">
 </p>
 
-2. whereis app —— show possible locations of app
-$ whereis gcc
-gcc: /usr/bin/gcc /usr/lib/gcc /usr/share/man/man1/gcc.1.gz
-3. which app —— show which app will be run by default
-$ which gcc
-/usr/bin/gcc
-4. whoami —— show your username (who you are logged in as)
-$ whoami
-airobot
+2. `whereis`app —— show possible locations of app
+
+    $ whereis gcc
+    gcc: /usr/bin/gcc /usr/lib/gcc /usr/share/man/man1/gcc.1.gz
+
+3. `which` app —— show which app will be run by default
+
+    $ which gcc
+    /usr/bin/gcc
+
+4. `whoami` —— show your username (who you are logged in as)
+
+    $ whoami
+    airobot
 
 ### File/Directory Basics
 
