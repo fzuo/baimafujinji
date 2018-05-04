@@ -9,8 +9,9 @@ keywords: Linux,命令
 
 ### System
  
-    1) `man` command —— show the manual for command
+1) `man` command —— show the manual for command
 
+用
     man whereis
 
 <p align="center">
@@ -144,6 +145,8 @@ http://gnulinux.guru/bash_cheatsheet.pdf
 http://man.linuxde.net/
 
 ### 连续不中断执行
+
+1. 
 
 用`;`可以让多个命令连续知行，中间出现错误并不会中断后面命令，如
 
