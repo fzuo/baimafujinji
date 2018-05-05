@@ -9,10 +9,10 @@ keywords: Linux,命令
 
 ### System
  
-1) `man` command —— show the manual for command
+1. `man` command —— show the manual for command
 
 ```
-man whereis
+$ man whereis
 ```
 
 <p align="center">
@@ -21,24 +21,33 @@ man whereis
 
 2. `whereis`app —— show possible locations of app
 
-    $ whereis gcc
-    gcc: /usr/bin/gcc /usr/lib/gcc /usr/share/man/man1/gcc.1.gz
+```
+$ whereis gcc
+gcc: /usr/bin/gcc /usr/lib/gcc /usr/share/man/man1/gcc.1.gz
+```
 
 3. `which` app —— show which app will be run by default
 
-    $ which gcc
-    /usr/bin/gcc
+```
+$ which gcc
+/usr/bin/gcc
+```
 
 4. `whoami` —— show your username (who you are logged in as)
 
-    $ whoami
-    airobot
+```
+$ whoami
+airobot
+```
 
 ### File/Directory Basics
 
 5. pwd —— show the present working directory
+
+```
 $ pwd
 /home/airobot/Desktop/dev
+```
 
 6. cd
 cd dir —— change directory to dir
