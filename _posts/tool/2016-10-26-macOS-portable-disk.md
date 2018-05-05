@@ -10,13 +10,13 @@ keywords: macOS,移动硬盘
 
 要想让你的Mac电脑能够自如地读写硬盘，其实有很多方法。最简单的方法就是装一个转换软件。此时你的选择也有很多！比较常被推荐的有下面两个：
 
-1. Tuxera NTFS for Mac (http://www.tuxera.com/products/tuxera-ntfs-for-mac/)
+* Tuxera NTFS for Mac (http://www.tuxera.com/products/tuxera-ntfs-for-mac/)
 
 <p align="center">
 <img src="https://fzuo.github.io/assets/img/mac_disk/mac_disk01.png" width="200">
 </p>
 
-2. Mounty for NTFS (http://enjoygineering.com/mounty/)
+* Mounty for NTFS (http://enjoygineering.com/mounty/)
 
 <p align="center">
 <img src="https://fzuo.github.io/assets/img/mac_disk/mac_disk02.png" width="200">
