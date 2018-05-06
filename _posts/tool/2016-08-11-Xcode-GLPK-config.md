@@ -53,7 +53,7 @@ keywords: Xcode,GLPK
 现在 you should have a working GLPK library. 可以来check一下：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/mac_glpk/mac_glpk07.png" width="380">
+<img src="https://fzuo.github.io/assets/img/mac_glpk/mac_glpk08.png" width="380">
 </p>
 
 我们已经完成了安装，但是这个工具箱还是不能直接用。是的，我们还需要在Xcode中进行配置。先是配置hearder path。如下图所示在搜索框里输入关键词，然后在对应的条目中Add the path "/usr/local/include"。
