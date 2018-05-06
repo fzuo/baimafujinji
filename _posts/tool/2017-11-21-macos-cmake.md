@@ -8,7 +8,7 @@ keywords: macOS,CMake
 
 > CMake是一个比make更高级的跨平台的安装、编译、配置工具，可以用简单的语句来描述所有平台的安装（编译过程）。并根据不同平台、不同的编译器，生成相应的Makefile或者project文件。本文主要介绍在Mac OSX上安装配置CMake的方法，笔者所使用的OS X版本是macOS Sierra。
 
-首先，你要去CMake的网站上下载它的安装文件（官网下载地址：https://cmake.org/download/），选择下图中红框所标注出来的选项。
+首先，你要去CMake的网站上下载它的安装文件：[官网下载地址](https://cmake.org/download/），选择下图中红框所标注出来的选项。
 
 <p align="center">
 <img src="https://fzuo.github.io/assets/img/mac_cmake/mac_cmake01.png" width="500">
