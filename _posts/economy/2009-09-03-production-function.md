@@ -33,7 +33,7 @@ Y = F(K, L)
 4. 竞争性经济，从而要素按其边际产品(MPL或MPK)得到报酬（以柯布-道格拉斯生产函数为例），有：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/production_func04.png" width="320">
+<img src="https://fzuo.github.io/assets/img/production_func/production_func04.png" width="380">
 </p>
 
 在上述两假定前提下，工资收入占国民收入的份额即为劳动对产出的贡献份额；同理，可证得：资本收入占国民收入的份额为θ，即资本对产出的贡献份额。
@@ -41,7 +41,7 @@ Y = F(K, L)
 在此基础上，我们可推导出以下关系：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/production_func05.png" width="520">
+<img src="https://fzuo.github.io/assets/img/production_func/production_func05.png" width="550">
 </p>
 
 上式经济含义为：<span style="color:orange">产出增长率=技术进步率+资本份额×资本增长率+劳动份额×劳动增长率</span>
