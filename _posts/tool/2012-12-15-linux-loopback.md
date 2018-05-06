@@ -99,7 +99,7 @@ $sudo mount -t ext3 /dev/loop0 /mnt/vfs  
 现在，所有的 Linux 文件系统相关的命令就都可以在上面创建的这个文件系统中使用了。例如，你可以输入 df -h来确认其 “disk usage”，或者输入 tune2fs -l /dev/loop0 来输出它的文件系统设置，等等。例如下面的例子中，我们在其中创建了一个文件夹tmp_dir，然后用ls来列出这个磁盘中的内容。请注意 lost+found 是一个由 mkfs 自动建立的文件夹一旦文件系统被破坏，部分数据被回复但没有与任何文件关联起来，将被放置在这个文件夹中。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/linux_loopback/linux_loopback05.png" width="500">
+<img src="https://fzuo.github.io/assets/img/linux_loopback/linux_loopback06.png" width="500">
 </p>
 
 注意，输入sudo echo 'hello world!'>test.txt是不可以的，这会导致Permission denied。因为The redirection（>） is done by the shell before sudo is even started. 所以你要使用上面图中所示的指令。另外，使用nano来创建或编辑文件，也要使用超级用户权限，即sudo nano test.txt，否则就可能无法保存。
@@ -120,7 +120,7 @@ $sudo umount /mnt/vfs
 便可以将已经挂载的回环文件系统卸载了。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/linux_loopback/linux_loopback06.png" width="500">
+<img src="https://fzuo.github.io/assets/img/linux_loopback/linux_loopback07.png" width="500">
 </p>
 
 -----------------------------
