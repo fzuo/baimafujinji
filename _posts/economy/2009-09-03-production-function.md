@@ -41,7 +41,7 @@ Y = F(K, L)
 在此基础上，我们可推导出以下关系：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/production_func05.png" width="500">
+<img src="https://fzuo.github.io/assets/img/production_func/production_func05.png" width="520">
 </p>
 
 上式经济含义为：<span style="color:orange">产出增长率=技术进步率+资本份额×资本增长率+劳动份额×劳动增长率</span>
@@ -49,7 +49,7 @@ Y = F(K, L)
 以及
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/production_func06.png" width="450">
+<img src="https://fzuo.github.io/assets/img/production_func/production_func06.png" width="430">
 </p>
 
 上式的经济含义为：<span style="color:orange">人均产出增长率=技术进步率+资本份额×人均资本增长率</span>
