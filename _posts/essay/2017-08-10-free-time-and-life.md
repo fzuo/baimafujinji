@@ -17,7 +17,7 @@ keywords: 业余时间,人生
 后来有人问他：“您论证这道题目花了多长时间？” <br>
 他回答说：“3年来的全部星期天。”<br>
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/free_time/cole.jpg" width="300">
+<img src="https://fzuo.github.io/assets/img/free_time/cole.jpg" width="200">
 </p>
 <center>Frank Nelson Cole (1861 – 1926) <br></center>
 这个故事听起来，的确有点鸡汤。但今天之所以用这个故事作为开头，也是因为有人问起我：在繁忙的工作同时，为什么还能有时间出版那么多本专业著作？我几乎是不假思索地回答：业余时间决定了你的人生！
