@@ -129,11 +129,40 @@ print f(4)
 
 在这个例子中创建了一个临时变量z来存储中间值. 和普通函数一样,这个中间值不会保存到下次调用. 什么也不返回的Lambda函数可以省略返回类型, 而不需要使用 -> void 形式。
 
-Lambda函数可以引用在它之外声明的变量. 这些变量的集合叫做一个闭包. 闭包被定义在Lambda表达式声明中的方括号[]内. 这个机制允许这些变量被按值或按引用捕获.下面这些例子就是：
+Lambda函数可以引用在它之外声明的变量. 这些变量的集合叫做一个闭包. 闭包被定义在Lambda表达式声明中的方括号[]内. 这个机制允许这些变量被按值或按引用捕获。下面这些例子就是：
+
+```c++
+[]        //未定义变量.试图在Lambda内使用任何外部变量都是错误的.
+[x, &y]   //x 按值捕获, y 按引用捕获.
+[&]       //用到的任何外部变量都隐式按引用捕获
+[=]       //用到的任何外部变量都隐式按值捕获
+[&, x]    //x显式地按值捕获. 其它变量按引用捕获
+[=, &z]   //z按引用捕获. 其它变量按值捕获
+```
 
 接下来的两个例子演示了Lambda表达式的用法：
 
-此例计算list中所有元素的总和. 变量total被存为lambda函数闭包的一部分. 因为它是栈变量(局部变量)total的引用,所以可以改变它的值。  
+```c++
+std::vector<int> some_list;  
+int total = 0;  
+for (int i=0;i<5;++i) some_list.push_back(i);  
+std::for_each(begin(some_list), end(some_list), [&total](int x)   
+{  
+    total += x;  
+});  
+```
+
+此例计算list中所有元素的总和。变量total被存为lambda函数闭包的一部分。因为它是栈变量(局部变量)total的引用，所以可以改变它的值。  
+
+```c++
+std::vector<int> some_list;
+int total = 0;
+int value = 5;
+std::for_each(begin(some_list), end(some_list), [&, value, this](int x) 
+{
+    total += x * value * this->some_func();
+});
+```
 
 此例中total会存为引用, value则会存一份值拷贝. 对this的捕获比较特殊, 它只能按值捕获. this只有当包含它的最靠近它的函数不是静态成员函数时才能被捕获.对protect和priviate成员来说, 这个lambda函数与创建它的成员函数有相同的访问控制. 如果this被捕获了,不管是显式还隐式的,那么它的类的作用域对Lambda函数就是可见的. 访问this的成员不必使用this->语法,可以直接访问。
 
@@ -143,6 +172,10 @@ Lambda函数可以引用在它之外声明的变量. 这些变量的集合叫做
 
 lambda函数是一个依赖于实现的函数对象类型，这个类型的名字只有编译器知道。如果用户想把lambda函数做为一个参数来传递, 那么形参的类型必须是模板类型或者必须能创建一个std::function类似的对象去捕获lambda函数。使用 auto关键字可以帮助存储lambda函数。
 
+```c++
+auto my_lambda_func = [&](int x) { /*...*/ };
+auto my_onheap_lambda_func = new auto([=](int x) { /*...*/ });
+```
 
 这里有一个例子, 把匿名函数存储在变量,数组或vector中,并把它们当做命名参数来传递
 
