@@ -1,17 +1,27 @@
-
-
-数据库领域三大国际顶级会议
+---
+layout: post
+title: 数据库领域三大国际顶级会议
+category: 闲话二三事
+tags: Conference
+keywords: SIGMOD,VLDB,ICDE
+---
 
 
 ### 引言
 
 做图像处理的人都知道图像领域的三大国际顶会分别是CVPR，ICCV和ECCV。同样，在数据库（也包含数据挖掘）领域同样有三大国际顶级会议，它们分别是SIGMOD，VLDB和ICDE。因为数据库与数据挖掘彼此有互有交叠，因此如果将数据挖掘也纳入其中，那么在某些推荐排名中类似SIGKDD也会被纳入。本文将把重点放在数据库领域，所以我们探讨的三大顶会主要是指SIGMOD，VLDB和ICDE。
 
-从一些计算机类会议和期刊的评价推荐体系中，都不难发现上述三大顶会的绝对领导地位。首先，中国计算机学会推荐国际会议和期刊目录中（http://www.ccf.org.cn/sites/ccf/biaodan.jsp?contentId=2903940690081），SIGMOD，VLDB和ICDE都别列入Rank A行列。
+从一些计算机类会议和期刊的评价推荐体系中，都不难发现上述三大顶会的绝对领导地位。首先，中国计算机学会推荐国际会议和期刊[目录](http://www.ccf.org.cn/sites/ccf/biaodan.jsp?contentId=2903940690081)中，SIGMOD，VLDB和ICDE都别列入Rank A行列。
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/db_conf_01.png" width="480">
+</p>
 
-此外，新加坡南洋理工大学给出的数据库领域国际会议排名（http://www3.ntu.edu.sg/home/assourav/crank.htm）也将上述三大会议列入Rank A行列。
+此外，新加坡南洋理工大学给出的数据库领域[国际会议排名](http://www3.ntu.edu.sg/home/assourav/crank.htm)也将上述三大会议列入Rank A行列。
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/db_conf_02.png" width="350">
+</p>
 
 ### SIGMOD
 
