@@ -74,5 +74,5 @@ int main(int argc, char *argv[])  
 -----------------------------
 ### 参考文献：
 
-【1】http://tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html （最后浏览日期2017年10月）<br>
-【2】https://www.cnblogs.com/jiqingwu/p/linux_dynamic_lib_create.html （最后浏览日期2017年10月）
+【1】[文章链接1](http://tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html) （最后浏览日期2017年10月）<br>
+【2】[文章链接2](https://www.cnblogs.com/jiqingwu/p/linux_dynamic_lib_create.html) （最后浏览日期2017年10月）
