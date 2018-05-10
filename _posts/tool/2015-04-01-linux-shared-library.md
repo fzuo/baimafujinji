@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Linux中编写并使用Shared Library
-category: 工具
-tags: Jekyll
-description: 在这个博客里，我使用了bootstrap作为前端框架，另外通过比较选择了一个还算满意的代码高亮方式
+category: 技巧与工具
+tags: Linux
+keywords: 动态链接库,shared library
 ---
 
 在Linux中，shared libraries are libraries that are loaded by programs when they start. When a shared library is installed properly, all programs that start afterwards automatically use the new shared library。 
