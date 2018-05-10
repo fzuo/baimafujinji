@@ -14,13 +14,13 @@ keywords: SIGMOD,VLDB,ICDE
 从一些计算机类会议和期刊的评价推荐体系中，都不难发现上述三大顶会的绝对领导地位。首先，中国计算机学会推荐国际会议和期刊[目录](http://www.ccf.org.cn/sites/ccf/biaodan.jsp?contentId=2903940690081)中，SIGMOD，VLDB和ICDE都别列入Rank A行列。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/db_conf_01.png" width="480">
+<img src="https://fzuo.github.io/assets/img/db_conf_01.png" width="500">
 </p>
 
 此外，新加坡南洋理工大学给出的数据库领域[国际会议排名](http://www3.ntu.edu.sg/home/assourav/crank.htm)也将上述三大会议列入Rank A行列。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/db_conf_02.png" width="350">
+<img src="https://fzuo.github.io/assets/img/db_conf_02.png" width="330">
 </p>
 
 ### SIGMOD
