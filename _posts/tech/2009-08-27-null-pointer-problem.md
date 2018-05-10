@@ -6,35 +6,45 @@ tags: 编程
 keywords: C语言,编程,空指针
 ---
 
-## 1. 定义关联模型
+C语言中的指针灵活强大，但是要掌握好却相当不易。特别是再配合malloc()函数进行动态内存管理时，很多细节的问题往往较难察觉。本文通过一个例子来探讨C语言中，发生空指针传递时可能会出现的问题。
 
-在Laravel里面，我们可以通过定义以下Model来完成关联查询。
+在下面这个程序中，我们在main()函数里声明一个结构体类型的指针，然后我们在一个函数test()里对它分配内存以及初始化。<span style="color:Orange">注意我们省略了动态内存的回收语句free，在实际编程中应该加上这部分。</span>
 
-```php
-class MyPost extends Eloquent {
-    public function myPostInfo () {
-        return $this->hasOne('MyPostInfo');
-    }
+```c
+struct node{
+    int data;
+    struct node *next;
+};
+
+void test(struct node * head){
+    
+    head=(struct node *)malloc(sizeof(struct node));
+    head->data = 1;
+    head->next = NULL;
 }
 
-class MyPostInfo extends Eloquent {}
+int main(int argc, const char * argv[]) {
+    
+    struct node * head = NULL;
+    
+    test(head);
+    
+    if(head == NULL)
+        printf("Fail to allocate memory!\n");
+    
+    return 0;
+}
 ```
 
-## 2. 使用关联模型
+执行上述代码，可得输出结果如下：
 
-这里`myPostInfo()`用的是Camel命名规则，但是我们在读取某一个PostInfo的时候可以用Snake规则。如下面代码都是可行的：
-
-```php
-$post = MyPost::find(1);
-$post_info = $post->myPostInfo; // example 1
-$post_info = $post->my_post_info; // example 2
+```
+Fail to allocate memory!
 ```
 
-Laravel允许上述两种方法，但是没有合理的处理使用两种命名造成的冲突。
+可见，内存分配和初始化过程失败了！指针变量head的值还是NULL。
 
-## 3. 缓存失效
-
-如果我们同时使用了上述两个例子，就会使其中一个缓存失效。在Model的relations变量中，缓存了已经读取过的关联Model，但是当我们用不同规则的名字去读取的时候，却会使得前一个缓存失效。例如
+为了查明原委，我们把test()函数中实现的内容挪移回主函数之后来看看效果：
 
 
 ```c
@@ -52,8 +62,6 @@ int main(int argc, const char * argv[]) {
         printf("Success!\n");
 }
 ```
-
-所以如果不希望缓存失效，得在项目中只使用一种命名方法去读取关系模型。Laravel推荐的是Camel Case.
 
 执行上述代码，可得输出结果如下：
 
