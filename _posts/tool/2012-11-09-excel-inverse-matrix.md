@@ -11,7 +11,7 @@ Excel中有很多执行线性代数运算的函数，只要轻点鼠标，各种
 对于n阶方阵A，如果另外有一个n阶方矩阵B，使得A×B=E，E为单位矩阵，则A和B互为逆矩阵。比如下面的例子，读者可以采取[《用Execel计算两个矩阵的乘法》](https://fzuo.github.io/2012/11/08/excel-matrix-mul.html)中提供的方法来验证它们相乘的结果是一个单位矩阵。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/excel/excel06.png" width="200">
+<img src="https://fzuo.github.io/assets/img/excel/excel06.png" width="280">
 </p>
 
 注意根据线性代数的知识：
