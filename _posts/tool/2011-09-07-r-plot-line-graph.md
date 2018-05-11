@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 在R中绘制折线图的方法与进阶
+title: R语言绘制折线图的方法与进阶
 category: 技巧与工具
 tags: R语言绘图
 keywords: R,绘图
