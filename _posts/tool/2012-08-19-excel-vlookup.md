@@ -34,12 +34,18 @@ VLOOKUP(lookup_value,table_array,col_index_num,range_lookup)
 
 首先我们在一个单元格中编辑公式，如下图所示，输入“ =VLOOKUP(... ”，其中第一个参数是要查找的内容，你可以输入一个具体的值，例如图中所示的“A003”，或者你也可以用具体某个单元格所在的位置坐标来表示要查找的对象，例如使用A4。
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/excel/excel11.png" width="480">
+</p>
+
 接下来，我们要选中要进行搜索的位置，注意这需要包含作为你直接搜索对象的第一列。然后是用数字表示的将要返回的对应列的偏移（也就是你选择之区域中的位置），最后用一个布尔变量来表示你打算进行精确匹配还是模糊匹配。
 
 
 最终我们成功地返回了要查找的内容，如下图所示：
 
-
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/excel/excel12.png" width="400">
+</p>
 
 
 
