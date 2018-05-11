@@ -40,7 +40,7 @@ keywords: OSI网络模型
 
 一个比较令人头疼的问题是如何不缺不漏而且按顺序记住这7层呢？脑动大开的网友给出了许多记忆口诀（不知道你喜欢哪个？）：
 
-1. <span style="color:blue">All    People    Seem    To    Need    Data    Processing</span>
+1. <span style="color:blue"><u>A</u>ll    People    Seem    To    Need    Data    Processing</span>
 
 2. <span style="color:blue">Please   Do   Not   Tell   Stupid   People   Anything</span>
 
@@ -53,7 +53,7 @@ keywords: OSI网络模型
 最后我们说明，七层协议中的高层，即7、6、5、4层定义了应用程序的功能，下面3层，即3、2、1层主要面向通过网络的端到端的数据流。每一层所包含的具体协议举例如下表：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/excel/OSI7.png" width="450">
+<img src="https://fzuo.github.io/assets/img/excel/osi7.png" width="450">
 </p>
 
 **（本文完）**
