@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 在Excel使用VLOOKUP进行列查找
+title: 在Excel中使用VLOOKUP进行列查找
 category: 技巧与工具
 tags: Excel
 keywords: Excel,VLOOKUP
