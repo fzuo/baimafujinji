@@ -54,7 +54,7 @@ keywords: R,绘图
 其中nx和ny分别表示x轴和y轴上每个主刻度之间被划分的子间隔数，上述代码的执行结果如下
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/excel/rplot04.png" width="360">
+<img src="https://fzuo.github.io/assets/img/excel/rplot04.png" width="380">
 </p>
 
 下面我们要做的事情会更加复杂，我们要实现在同一界面上绘制三张图，并在最后一张图中绘制多条折线以及添加图例。
@@ -91,7 +91,7 @@ par(opar)#恢复开始的图形设置
 执行上述代码所绘制之图形如下：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/excel/rplot05.png" width="550">
+<img src="https://fzuo.github.io/assets/img/excel/rplot05.png" width="580">
 </p>
 
 **（本文完）**
