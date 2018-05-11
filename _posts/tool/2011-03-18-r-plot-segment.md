@@ -9,7 +9,7 @@ keywords: R,绘图
 R语言绘图的能力非常强大，有时看似繁复的图形不过寥寥数行代码就搞定。但是其中确实有一些小技巧平时并不太容易引起注意。通常情况下我们画出的图形周围会有一个方框。但是如果我们想画出坐标轴（横轴以及竖轴）的话那该怎么办呢？例如，下面这张图该如何来绘制的？
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/excel/rplot01.png" width="400">
+<img src="https://fzuo.github.io/assets/img/excel/rplot01.png" width="360">
 </p>
 
 首先，如果你不想要原图外面的那个框，那么相应绘图参数中的 axes 应被置为FALSE。此外，重新定制的坐标轴，需要使用函数arrows()。示例代码如下：
