@@ -40,15 +40,15 @@ keywords: OSI网络模型
 
 一个比较令人头疼的问题是如何不缺不漏而且按顺序记住这7层呢？脑动大开的网友给出了许多记忆口诀（不知道你喜欢哪个？）：
 
-1. <span style="color:blue"><u>A</u>ll    People    Seem    To    Need    Data    Processing</span>
+1. <span style="color:blue"><u>A</u>ll    <u>P</u>eople    <u>S</u>eem    <u>T</u>o    <u>N</u>eed    <u>D</u>ata    <u>P</u>rocessing</span>
 
-2. <span style="color:blue">Please   Do   Not   Tell   Stupid   People   Anything</span>
+2. <span style="color:blue"><u>P</u>lease   <u>D</u>o   <u>N</u>ot   <u>T</u>ell   <u>S</u>tupid   <u>P</u>eople   <u>A</u>nything</span>
 
-3. <span style="color:blue">Please   Do   Not   Take   Sales   People's   Advice</span>
+3. <span style="color:blue"><u>P</u>lease   <u>D</u>o   <u>N</u>ot   <u>T</u>ake   <u>S</u>ales   <u>P</u>eople\'s   <u>A</u>dvice</span>
 
-4. <span style="color:blue">Please    Do   Not   Throw    Sausage   Pizza   Away</span>
+4. <span style="color:blue"><u>P</u>lease    <u>D</u>o   <u>N</u>ot   <u>T</u>hrow    <u>S</u>ausage   <u>P</u>izza   <u>A</u>way</span>
 
-5. <span style="color:blue">Please    Do   Not   Teach   Students  Pointless  Acronyms</span>
+5. <span style="color:blue"><u>P</u>lease    <u>D</u>o   <u>N</u>ot   <u>T</u>each   <u>S</u>tudents  <u>P</u>ointless  <u>A</u>cronyms</span>
 
 最后我们说明，七层协议中的高层，即7、6、5、4层定义了应用程序的功能，下面3层，即3、2、1层主要面向通过网络的端到端的数据流。每一层所包含的具体协议举例如下表：
 
