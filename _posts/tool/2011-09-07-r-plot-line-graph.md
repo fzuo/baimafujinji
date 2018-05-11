@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: 在R中绘制折线图的方法与进阶
@@ -28,8 +27,37 @@ keywords: R,绘图
 
 当使用 type = "c" 时没有点而只画出线。如果想把上图中的圆圈换成实心三角形，并想用虚线代替实现来连接各个数据点的话，则可以像下面这个做：
 
+```r
+> plot(dose, drugB, type = "b", lty = 2, pch = 17)
+```
 
+上述代码执行结果如下：
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/excel/rplot03.png" width="360">
+</p>
+
+现在我们把这幅图画得复杂一些！我们来画出次刻度线，为此请加载Hmisc包用，以便添加次要刻度线：
+
+```r
+> library(Hmisc)
+```
+
+然后执行下面的代码：
+
+```r
+> plot(dose,drugB,type="b",pch=3,lty=3,col="blue",ylim=c(0,max(drugB)*1.1),  
++ xlab="x",ylab="y",main="Example")  
+> minor.tick(nx=5,ny=2,tick.ratio=0.5)#添加次要刻度线
+```
+
+其中nx和ny分别表示x轴和y轴上每个主刻度之间被划分的子间隔数，上述代码的执行结果如下
+
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/excel/rplot04.png" width="360">
+</p>
+
+下面我们要做的事情会更加复杂，我们要实现在同一界面上绘制三张图，并在最后一张图中绘制多条折线以及添加图例。
 
 ```r
 opar <- par(no.readonly=TRUE)  #保存当前图形界面的参数
@@ -63,7 +91,7 @@ par(opar)#恢复开始的图形设置
 执行上述代码所绘制之图形如下：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/excel/rplot02.png" width="360">
+<img src="https://fzuo.github.io/assets/img/excel/rplot05.png" width="550">
 </p>
 
 **（本文完）**
