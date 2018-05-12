@@ -88,7 +88,7 @@ CES 生产函数是一个新古典生产函数，它体现了常数替代弹性�
 所以可得
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/ces12.png" width="300">
+<img src="https://fzuo.github.io/assets/img/production_func/ces12.png" width="350">
 </p>
 
 所以结论得证。基于这个结论我们来证明CES函数（其中，α + β = 1）
@@ -106,25 +106,25 @@ CES 生产函数是一个新古典生产函数，它体现了常数替代弹性�
 之间的关系。首先，对于Cobb-Douglas生产函数等号两边分别取对数可得
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/ces15.png" width="200">
+<img src="https://fzuo.github.io/assets/img/production_func/ces15.png" width="230">
 </p>
 
 同样，对CES函数等号两边分别取对数，再取极限可得
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/ces16.png" width="300">
+<img src="https://fzuo.github.io/assets/img/production_func/ces16.png" width="350">
 </p>
 
 根据洛必达法则，对分式上下分布求导
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/ces17.png" width="380">
+<img src="https://fzuo.github.io/assets/img/production_func/ces17.png" width="450">
 </p>
 
 其中，求导部分的中间计算过程如下（主要要使用前面正面的结论）：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/ces18.png" width="320">
+<img src="https://fzuo.github.io/assets/img/production_func/ces18.png" width="380">
 </p>
 
 至此，证明完毕。
