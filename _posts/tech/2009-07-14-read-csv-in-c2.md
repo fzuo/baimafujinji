@@ -10,7 +10,7 @@ keywords: C语言,CSV文件
 在之前的文章中，我们已经介绍了利用strok()函数对CSV文件进行解析的基本方法。本文将在此基础上更进一步，我们要将一个用CSV文件存储的表格数据放进一个二维数组中。首先来看看作为示例的一个小型的CSV文件内容：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/shared_lib/csv02.png" width="350">
+<img src="https://fzuo.github.io/assets/img/shared_lib/csv02.png" width="300">
 </p>
 
 我们特别约定，CSV文件的第一行的第一个数字表示正式的数据文件一共包含的行数，第二个数字则表示数据文件所包含的列数，注意这里的行数和列数是不包括第一行本身的。
