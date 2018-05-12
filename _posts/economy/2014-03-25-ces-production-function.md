@@ -62,13 +62,13 @@ CES 生产函数是一个新古典生产函数，它体现了常数替代弹性�
 我们来试求 K 和 L 之间的替代弹性，首先求出 K 对 L 的边际替代率
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/ces08.png" width="300">
+<img src="https://fzuo.github.io/assets/img/production_func/ces08.png" width="450">
 </p>
 
 再求 K 和 L 之间的替代弹性
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/ces09.png" width="320">
+<img src="https://fzuo.github.io/assets/img/production_func/ces09.png" width="500">
 </p>
 
 可见，当参数一定时，CES函数的替代弹性就是一个常数。而且，显而易见的是，当 ρ 趋近于0时，σ 趋近于1，这时，CES函数趋近于Cobb-Douglas生产函数。要证明这个看似诡异的结论，需要用到一点数学技巧。下面我们就来审视一下它的证明细节。
@@ -112,19 +112,19 @@ CES 生产函数是一个新古典生产函数，它体现了常数替代弹性�
 同样，对CES函数等号两边分别取对数，再取极限可得
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/ces16.png" width="350">
+<img src="https://fzuo.github.io/assets/img/production_func/ces16.png" width="420">
 </p>
 
 根据洛必达法则，对分式上下分布求导
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/ces17.png" width="450">
+<img src="https://fzuo.github.io/assets/img/production_func/ces17.png" width="480">
 </p>
 
 其中，求导部分的中间计算过程如下（主要要使用前面正面的结论）：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/production_func/ces18.png" width="380">
+<img src="https://fzuo.github.io/assets/img/production_func/ces18.png" width="420">
 </p>
 
 至此，证明完毕。
