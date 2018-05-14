@@ -10,7 +10,7 @@ LeetCode中的动态规划题目(1)
 下面通过两个LeetCode题目来做进一步说明。首先是编号为#62的Unique Paths问题，该问题描述如下：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/leetcode/leetcode01.png" width="500">
+<img src="https://fzuo.github.io/assets/img/leetcode/leetcode01.png" width="550">
 </p>
 
 大意是给定一个矩阵，问你从左上角到右下角一共有多少种不同的路径。其中Robot移动的方式只能是要么向下移动一格、要么是向右移动一格。
@@ -82,7 +82,7 @@ public:
 LeetCode中还提供了另外一个变型题目，其编号为#63。大意是初始条件中给定一个矩阵用来表示地图，其中如果值为1则表示一个障碍物。然后再假定存在障碍物的情况下问你有多少条不同的路径。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/leetcode/leetcode02.png" width="500">
+<img src="https://fzuo.github.io/assets/img/leetcode/leetcode02.png" width="550">
 </p>
 
 其实如果你能解决#62题，那么这一道题目其实是非常简单的。我们主要在递归过程中，增加一个base condition，即如果目标点是一个障碍物，那么通向它的路径就为0。基于这种小改动而得之代码如下：
@@ -93,7 +93,7 @@ LeetCode中还提供了另外一个变型题目，其编号为#63。大意是初
 
 <span style="color:blue">**（本文完）**</span>
 
-
+------------------------------
 - 本博客中已经讨论过的LeetCode题目列表
   + LeetCode中的两道动态规划题目（#62、#63）
   + LeetCode中的动态规划题目解答（2）(#64)
