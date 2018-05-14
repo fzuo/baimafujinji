@@ -33,7 +33,7 @@ public:
             matrix[i] = new int[n+1];
             for(int j = 0; j < n+1; j++)
             {
-                	matrix[i][j] = 0;
+                matrix[i][j] = 0;
             } 
         }
         
