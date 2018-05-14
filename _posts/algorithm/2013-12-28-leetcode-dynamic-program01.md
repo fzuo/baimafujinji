@@ -1,6 +1,10 @@
-
-
-LeetCode中的动态规划题目(1)
+---
+layout: post
+title: LeetCode中的动态规划题目(1)
+category: 算法与结构
+tags: LeetCode
+keywords: LeetCode,动态规划
+---
 
 
 动态规划是一种非常重要的算法设计思想。历史上有很多著名的算法都是基于这种思想设计而来的，例如：Needleman–Wunsch算法、CYK算法、FFT算法、维特比算法等等。动态规划的核心思想有两个：首先是将一个大问题拆解为若干子问题；其次是将曾经计算过的结果储存起来以备多次使用。
