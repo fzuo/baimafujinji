@@ -91,6 +91,57 @@ LeetCode中还提供了另外一个变型题目，其编号为#63。大意是初
 
 其实如果你能解决#62题，那么这一道题目其实是非常简单的。我们主要在递归过程中，增加一个base condition，即如果目标点是一个障碍物，那么通向它的路径就为0。基于这种小改动而得之代码如下：
 
+```cpp
+class Solution {
+public:
+    
+    int matrix[101][101];
+    
+    Solution(){
+        for(int i = 0; i<101; i++)
+            for(int j = 0; j<101; j++)
+                matrix[i][j] = -1; 
+    }
+    
+    int uniquePaths(int m, int n, vector<vector<int>>& obstacleGrid) {
+        
+        if (matrix[m][n] != -1)
+            return matrix[m][n];
+        
+        if(obstacleGrid[m-1][n-1] == 1)
+        {
+            matrix[m][n] = 0;
+            return 0;
+        }
+        
+        if(m==1) 
+        {
+            matrix[m][n] = uniquePaths(m, n-1, obstacleGrid);
+            return matrix[m][n];
+        }
+        
+        if(n==1) 
+        {
+            matrix[m][n] = uniquePaths(m-1, n, obstacleGrid);
+            return matrix[m][n];
+        }
+        
+        matrix[m][n] = uniquePaths(m-1, n, obstacleGrid) + uniquePaths(m, n-1, obstacleGrid);
+        return (matrix[m][n]);
+        
+    }
+    
+    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+        
+        int m = obstacleGrid.size();
+        int n = obstacleGrid[0].size();
+        
+        matrix[1][1]= obstacleGrid[0][0]==1? 0:1;
+        
+        return uniquePaths(m, n, obstacleGrid);
+    }
+};
+```
 
 唯一需要注意的是作为参数而提供的新矩阵是从[0,0]开始的（而非从[1,1]开始）。所以在初始化上会有一点点的小变化。
 
