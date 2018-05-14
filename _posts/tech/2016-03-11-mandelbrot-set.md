@@ -1,6 +1,11 @@
+---
+layout: post
+title: 曼德勃罗集合与其编程实现
+category: 编程与开发
+tags: 分形
+keywords: 曼德勃罗集合
+---
 
-
-曼德勃罗集合与其编程实现
 
 ## 从科赫雪花谈起
 
