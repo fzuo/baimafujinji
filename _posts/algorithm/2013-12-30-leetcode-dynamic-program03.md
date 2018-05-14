@@ -69,7 +69,7 @@ public:
 这道题目和前面的题目思路差不多，但是却复杂很多。题目本身可以使用著名的德勒曼-温施（Needleman-Wunsch）算法直接解决。Needleman-Wunsch算法也是历史上最早的应用动态规划思想设计的算法之一。关于该算法的更多内容，读者可以参考《算法之美（隐匿在数据结构背后的原理）》一书中的第3章，此处不再赘述。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/leetcode/leetcode06.png" width="200">
+<img src="https://fzuo.github.io/assets/img/leetcode/leetcode06.png" width="190">
 </p>
 
 需要说明的是，在具体使用Needleman-Wunsch算法时，要为各种编辑操作赋上不同的分值，而这个分值可以由使用者自行定义。而这道LeetCode题目的要求其实已经指明插入、删除和替换都对应于1个步骤（所以可以量化为1分）。这与书上作为例子时所设定的算分极值不同。下面我们给出最终的实现代码：
