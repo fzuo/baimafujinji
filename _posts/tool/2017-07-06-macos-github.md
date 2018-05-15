@@ -157,28 +157,32 @@ git clone https://github.com/git/git  
 首先从屏幕上方的菜单栏中寻找【Branch】，然后从下拉菜单中选择【New Branch...】，如下图所示。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/mac_github/macgithub22.png" width="560">
+<img src="https://fzuo.github.io/assets/img/mac_github/macgithub21.png" width="560">
 </p>
 
 在弹出的对话框中，编辑新的branch的名字，并单击【Create Branch】按钮，完成操作，如下图所示。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/mac_github/macgithub23.png" width="560">
+<img src="https://fzuo.github.io/assets/img/mac_github/macgithub22.png" width="560">
 </p>
 
 创建Branch成功后，编辑Summary和Description（也就是描述此次项目文件更新的一些内容），然后单击【Commit to ...】按钮（意思就是把最新的更新提交到新建的Branch中），如下图所。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/mac_github/macgithub24.png" width="560">
+<img src="https://fzuo.github.io/assets/img/mac_github/macgithub23.png" width="560">
 </p>
 
 然后点击【Publish branch】，GitHub Desktop便会把更新的内容同步上传到GitHub网站上，如下图所示。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/mac_github/macgithub25.png" width="560">
+<img src="https://fzuo.github.io/assets/img/mac_github/macgithub24.png" width="560">
 </p>
 
 此时，再登录你的GitHub网站，便会发现，在Repository中已经新建了一个Branch，而且刚刚更新的项目文件也已经同步上传到GitHub网站上了。如下图所示。
+
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/mac_github/macgithub25.png" width="560">
+</p>
 
 <p align="center">
 <img src="https://fzuo.github.io/assets/img/mac_github/macgithub26.png" width="560">
