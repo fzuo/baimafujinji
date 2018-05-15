@@ -16,15 +16,17 @@ keywords: LeetCode,括号匹配问题
 
 下面几条语句是存在括号匹配错误的例子：
 
-`）（`
-
-`（（（））`
+```
+)(
+((())
+```
 
 下面几条语句是不存在括号匹配错误的例子：
 
-`（）`
-
-`（a）（（b）（（c）（d）））`
+```
+()
+(a)((b)((c)(d)))
+```
 
 下面给出程序实现的源代码。
 
@@ -82,7 +84,82 @@ int _tmain(int argc, _TCHAR* argv[])
 
 Leetcode 是一个美国的在线编程网站，上面主要收集了各大IT公司的笔试面试题，对于应届毕业生找工作是一个不可多得的好帮手。我相信很多有求职需求的读者都刷过Leetcode上面的题目。然而，在我写作《算法之美》一书时，我还不知道这个网站的存在。说来也巧，最近有朋友推荐我看下Leetcode网站。我居然发现了上面很多题目其实和我书中所举的例子非常类似。我前面也已经push了几篇博文，介绍了《算法之美》中例题的解答，以及与之相类似的Leetcode题型。下面这道Valid Parentheses题目显然就是上面括号匹配问题的变种。先来看一下原题：
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/leetcode/leetcode11.png" width="550">
+</p>
 
+这里与前面例题的主要差别主要是引入了[ ]和{ }，但利用栈结构来解决仍然是非常容易的。而且，尽管题目没有明确地表明，但我们应该知道类似{ [ ( ) ] }这样的形式也是正确的括号匹配模式。示例代码如下：
+
+```c
+class Solution {
+public:
+    bool isValid(string s) {
+                stack<char> charStack; 
+        int i = 0;
+        while(i != s.length()){
+        	
+        	if (s[i] != ')' && s[i] != '}' && s[i] != ']')
+                charStack.push(s[i]);  
+        	else{
+        		if (charStack.empty())	return false;
+        		char c = charStack.top();
+				charStack.pop();
+				if ((c == '(' && s[i] != ')') || (c == '[' && s[i] != ']') || (c == '{' && s[i] != '}'))
+					return false;
+			}
+        	i++;
+		}
+        
+        if (charStack.size() == 0)  
+           return true;  
+        else return false;  
+    }
+};
+```
+
+Leetcode中另外还提供了一道与此类似的变型题，我们应当举一反三，趁热打铁，一举攻克所有该类型的题目。如下，此时我们不再要求判定输入字符串的括号匹配是否正确，而是要检测其中最长的匹配系列的长度。
+
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/leetcode/leetcode12.png" width="550">
+</p>
+
+从Leetcode上所给的提示（图中红框标出）可以看出，该题需要用到动态规划策略来解决。而且Leetcode给出的题目难度等级为Hard。事实上，Leetcode上所有涉及动态规划的问题都是Hard级别的！但是，如果我们有捷径，当然不必墨守成规。这道题其实有个非常轻巧的解决办法，用一个bool数组来标记已经匹配过的字符，找到最长的连续标记的长度就是所求的结果。采用该种方法，我们只要遍历两遍数组即可，时间复杂度为O(n)。而采用动态规划算法，复杂度则是O(n^2)。既然我们的方法更易于实现（和理解），复杂度又更低，何乐而不为？下面是示例代码。
+
+```c
+class Solution {
+public:
+    int longestValidParentheses(string s) {
+        vector <bool> a(s.length(), false);	
+        stack<int> st; 
+        
+        int i = 0;
+        while(i != s.length()){
+        	
+        	if (s[i] == '(' )
+                st.push(i); 
+        	else if (!st.empty() && s[i] == ')'){
+        		
+        		a[i] = true;
+				a[st.top()] = true;
+				st.pop();
+			}
+        	i++;
+		}
+        
+		int max_len = 0, cur_len = 0;
+	    i = 0;
+		while(i != s.length()){
+			if (a[i]) cur_len++;
+			else cur_len = 0;
+			max_len = max(max_len, cur_len);
+			i++;
+		}
+		return max_len;
+    }
+};
+```
+
+需要说明的是，我们使用了一个vector来储存bool数组。如果你用new来动态生成一个数组，因为数组访问是基于指针的，所以程序的执行效率会进一步提升，但是注意别忘了用delete来释放内存。
 
 <span style="color:blue">**（本文完）**</span>
 
