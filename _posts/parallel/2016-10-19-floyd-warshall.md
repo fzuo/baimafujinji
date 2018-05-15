@@ -1,4 +1,10 @@
-
+---
+layout: post
+title: Floyd-Warshall算法及其并行化
+category: 多核与并发
+tags: MPI
+keywords: MPI,并发编程, Floyd算法
+---
 
 > Floyd-Warshall算法（或称Floyd算法）是用于寻找加权图中非固定起止点间最短路径的经典算法，它是基于动态规划思想设计的。当前我们所认识的Floyd算法之形式由计算机科学家（同时也是图灵奖得主） Robert Floyd 于 1962 年提出并发表。但在此之前，Bernard Roy（1959）和 Stephen Warshall（1962）也分别独立地提出了类似的算法。
 
@@ -158,8 +164,9 @@ $ ./a.out<graph.txt
 
 现在来讨论并行实现的思路。基本想法是把一个大矩阵，按行进行划分，每个处理器（或计算节点，注意是分布式Supercomputer上的节点，不是图中的节点）分别负责矩阵中的几行，例如我们的矩阵大小是16×16，准备在四个处理器上并行计算，那么就像下图一样把整个矩阵按行分为四个小矩阵：A、B、C、D。然后每个处理分别负责其中之一。
 
-
- 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/leetcode/floyd.png" width="420">
+</p>
 
 下面是我在C++下实现的基于MPI的并行Floyd算法。
 
@@ -338,3 +345,5 @@ $ mpirun -n 3 ./a.out<graph.txt
 ```
 
 可见我们的并行程序输出了预期的结果。
+
+<span style="color:blue">**（本文完）**</span>
