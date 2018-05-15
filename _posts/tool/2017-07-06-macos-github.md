@@ -124,13 +124,33 @@ git clone https://github.com/git/git  
 
 成功创建一个新的Repository之后，如下图左上角所示可以看到“Current Repository”就是刚刚创建的Repository，由于现在这个Repository是空的，所以里面并没有任何文件。此外，还应该注意到此时My-First-Git-Proj的图标是一个电脑形状，这是因为该Repository仅仅存在你的电脑上，还没有上传到GitHub网站上。
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/mac_github/macgithub16.png" width="560">
+</p>
+
 记下来就实现GitHub网站的同步更新。如下图所示，单击【Publish repository】，然后在弹出的对话框中填入必要的信息，并单击【Publish Repository】以完成操作。
+
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/mac_github/macgithub17.png" width="560">
+</p>
 
 完成上述步骤后，Repository的图标就会发生改变，即不再是一个电脑形状的图标。此外，如果你登录到GitHub网站上，如下图所示，你也会发现My-First-Git-Proj也已经出现在你的Repositories中了。当然，如果你单击My-First-Git-Proj进入该Repository，也会发现这是一个空的项目。
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/mac_github/macgithub18.png" width="560">
+</p>
+
 下面我们来为刚刚建好的Repository文件夹加入一些文件（也就是你在开发项目时的工程更新内容）。然后再试着将这些内容同步更新到GitHub网站上。如下图所示，我们在My-First-Git-Proj文件夹里放入了一个Java的程序文件（其实你可以随便放入任何文件）。
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/mac_github/macgithub19.png" width="420">
+</p>
+
 随机你就会发现GitHub Desktop界面中的My-First-Git-Proj Repository已经同步更新了最新加入的文件。如下图所示。
+
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/mac_github/macgithub20.png" width="560">
+</p>
 
 现在设法把项目更新同步上传到GitHub网站上。现在就涉及到一个概念Branch，这是用于版本控制的一种设置。默认情况下所有的项目内容都位于master Branch下面。但是有些时候，你对程序文件进行了修改之后，可能又想找回原来的版本。为此，就应该新建一个Branch，把新的更新放在新的Branch里面。如果要找回原来更改前的文件，只要到原来的Branch里面就会得到修改前的程序文件。下面来演示一下，在新的Branch里面同步更新程序文件的方法。
 
