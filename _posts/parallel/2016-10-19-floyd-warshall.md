@@ -16,7 +16,7 @@
 
 下面给出示例代码：
 
-```c
+```cpp
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -156,13 +156,185 @@ $ ./a.out<graph.txt
 
 ### 并行实现
 
-现在来讨论并行实现的思路。基本想法是把一个大矩阵，按行进行划分，每个处理器（或计算节点，注意是分布式Supercomputer上的节点，不是图中的节点）分别负责矩阵中的几行，例如我们的矩阵大小是16
-×
-×
-16，准备在四个处理器上并行计算，那么就像下图一样把整个矩阵按行分为四个小矩阵：A、B、C、D。然后每个处理分别负责其中之一。
+现在来讨论并行实现的思路。基本想法是把一个大矩阵，按行进行划分，每个处理器（或计算节点，注意是分布式Supercomputer上的节点，不是图中的节点）分别负责矩阵中的几行，例如我们的矩阵大小是16×16，准备在四个处理器上并行计算，那么就像下图一样把整个矩阵按行分为四个小矩阵：A、B、C、D。然后每个处理分别负责其中之一。
 
 
  
 
 下面是我在C++下实现的基于MPI的并行Floyd算法。
 
+```cpp
+//Author: baimafujinji
+
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include "mpi.h"
+
+using namespace std;
+
+#define MAX 10
+#define NOT_CONNECTED -1
+
+int distances[MAX][MAX];
+int result[MAX][MAX];
+//number of nodes
+int nodesCount;
+
+//initialize all distances to 
+void Initialize(){
+
+    memset(distances, NOT_CONNECTED , sizeof(distances));
+    memset(result, NOT_CONNECTED , sizeof(result));
+
+    for (int i=0;i<MAX;++i)
+        distances[i][i]=0;
+}
+
+int cmp ( const void *a , const void *b ){
+    return *(int *)a - *(int *)b;
+}
+
+int main(int argc, char *argv[]){
+
+    Initialize();
+
+    //get the nodes count
+    scanf("%d", &nodesCount);
+
+    //edges count
+    int m;
+    scanf("%d", &m);
+
+    while(m--){
+        //nodes - let the indexation begin from 1
+        int a, b;
+
+        //edge weight
+        int c;
+
+        scanf("%d-%d-%d", &a, &c, &b);
+        distances[a][b]=c;
+    }
+
+    int size, rank;
+
+    MPI_Init(&argc,&argv);
+
+    MPI_Datatype rtype;
+
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+
+    int slice = (nodesCount)/size;
+
+    MPI_Bcast(distances, MAX*MAX, MPI_INT, 0, MPI_COMM_WORLD);
+    MPI_Bcast(&nodesCount, 1, MPI_INT, 0, MPI_COMM_WORLD);
+    MPI_Bcast(&slice, 1, MPI_INT, 0, MPI_COMM_WORLD);
+
+    //Floyd-Warshall
+    int sent=1;
+
+    for (int k=1;k<=nodesCount;++k){
+
+        int th = 1;
+        for(; th <= size; th++)
+        {
+            if(1+slice*(th-1) <= k && k <= slice*th)
+                sent = th;
+        }
+        if(1+slice*(th-1) <= k && k <= nodesCount )
+            sent = size;
+
+        MPI_Bcast(&distances[k], nodesCount+1, MPI_INT, sent-1, MPI_COMM_WORLD);
+
+        if(rank != size-1){
+
+            for (int i=1+slice*(rank);i<=slice*(rank+1);++i){  
+                if (distances[i][k]!=NOT_CONNECTED){
+                    for (int j=1;j<=nodesCount;++j){
+                        if (distances[k][j]!=NOT_CONNECTED && (distances[i][j]==NOT_CONNECTED 
+                            || distances[i][k]+distances[k][j]<distances[i][j])){
+                            distances[i][j]=distances[i][k] + distances[k][j];
+                        }
+                    }
+                }
+            }
+        }
+
+        else{
+            for (int i=1+slice*rank;i<=nodesCount;++i){
+                if (distances[i][k]!=NOT_CONNECTED){
+                    for (int j=1;j<=nodesCount;++j){
+                        if (distances[k][j]!=NOT_CONNECTED && (distances[i][j]==NOT_CONNECTED 
+                            || distances[i][k]+distances[k][j]<distances[i][j])){
+                            distances[i][j]=distances[i][k]+distances[k][j];
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    for (int k=1;k<=nodesCount;++k){
+
+        int th = 1;
+        for(; th <= size; th++)
+        {
+            if(1+slice*(th-1) <= k && k <= slice*th)
+                sent = th;
+        }
+        if(1+slice*(th-1) <= k && k <= nodesCount )
+            sent = size;
+
+        MPI_Bcast(&distances[k], nodesCount+1, MPI_INT, sent-1, MPI_COMM_WORLD);
+    }
+
+    MPI_Reduce(distances, result, MAX*MAX, MPI_INT, MPI_MIN, 0, MPI_COMM_WORLD);
+
+    if(rank==0)
+    {
+        for(int i = 1; i <= nodesCount; i++)
+        {
+            for(int j = 1; j <= nodesCount; j++)
+            {        
+                printf("%d ", result[i][j]);
+            }
+            printf("\n");
+        }
+        printf("\n");
+    }
+
+    /* Shut down MPI */
+    MPI_Finalize();
+
+    return 0;
+}
+```
+
+完成编码后，我们来验证一下上面程序的计算结果是否和串行实现的版本所得一致。
+
+```
+$ mpirun -n 3 ./a.out<graph3.txt
+0 6 7 6 11 
+-1 0 3 -1 -1 
+-1 -1 0 -1 -1 
+-1 7 1 0 5 
+-1 2 5 -1 0 
+
+$ mpirun -n 3 ./a.out<graph2.txt
+0 5 3 2 3 
+4 0 2 6 3 
+8 13 0 10 7 
+2 7 4 0 1 
+1 6 4 3 0 
+
+$ mpirun -n 3 ./a.out<graph.txt
+0 1 3 4 
+-1 0 2 3 
+-1 -1 0 1 
+-1 -1 -1 0 
+```
+
+可见我们的并行程序输出了预期的结果。
