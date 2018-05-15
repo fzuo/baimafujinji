@@ -117,7 +117,7 @@ Leetcode 是一个美国的在线编程网站，上面主要收集了各大IT公
 <img src="https://fzuo.github.io/assets/img/leetcode/leetcode10.png" width="550">
 </p>
 
-或者你可以访问[网页链接](https://leetcode.com/problems/zigzag-conversion/)
+或者你可以访问[网页链接](https://leetcode.com/problems/zigzag-conversion/)。
 
 索性我也来试做一下，还好宝刀未老，基本上Leetcode是将其分类为难度系数Easy类的题目，基本上感觉题目难度确实不大，但是还是要做到考虑全面，有一些细节上第一次做很可能考虑不到而不能通过Online 测试。现在，特与各位分享一下我的解答。代码若有欠缺之处，还望高手赐教（C++实现）。
 
