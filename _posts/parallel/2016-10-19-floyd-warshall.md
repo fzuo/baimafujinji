@@ -165,7 +165,7 @@ $ ./a.out<graph.txt
 现在来讨论并行实现的思路。基本想法是把一个大矩阵，按行进行划分，每个处理器（或计算节点，注意是分布式Supercomputer上的节点，不是图中的节点）分别负责矩阵中的几行，例如我们的矩阵大小是16×16，准备在四个处理器上并行计算，那么就像下图一样把整个矩阵按行分为四个小矩阵：A、B、C、D。然后每个处理分别负责其中之一。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/leetcode/floyd.png" width="420">
+<img src="https://fzuo.github.io/assets/img/leetcode/floyd.png" width="350">
 </p>
 
 下面是我在C++下实现的基于MPI的并行Floyd算法。
