@@ -86,11 +86,50 @@ Leetcode 是一个美国的在线编程网站，上面主要收集了各大IT公
 
 在《算法之美》上市之前，有朋友推荐我看下Leetcode网站。之所以会想到把杨辉三角问题拉出来讲一讲，也是因为刚好看到Leetcode上面也给出了两道类似的和杨辉三角有关的问题。当然二者也还是有区别的，在我的书里是用队列结构来求解该问题，而Leetcode上（如果选择C++语言实现）则要求基于STL中的vector来实现。先给出题目如下：
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/leetcode/leetcode14.png" width="550">
+</p>
+
 基本上Leetcode是将其分类为难度系数Easy类的题目，基本上感觉题目难度确实不大，但是如果选择C++作为实现语言，那么需要对STL中的vector有所了解。现在，特与各位分享一下我的解答（仅仅实现了功能，并未做特殊的性能优化，但已经可以通过Leetcode的测试）。代码若有欠缺之处，还望高手赐教（C++实现）。
+
+```cpp
+class Solution {
+public:
+    vector<int> getRow(int rowIndex) {
+    	
+		vector<int> v1(1, 1);
+        
+		if (rowIndex == 0)
+    		return v1;
+        
+        v1.push_back(1);
+                 
+        vector<int> v2;		       
+        for(int i = 1; i < rowIndex; i++){
+        	
+        	v2.clear();
+        	v2.push_back(1);
+        	
+        	for(vector<int>::iterator it  = v1.begin(); it != v1.end()-1; ){
+        		int element = *(it) + *(++it);
+				v2.push_back(element);	
+			}
+			
+			v2.push_back(1);
+			
+			v1 = v2;
+		}
+		
+        return v1;
+    }
+};
+```
 
 类似的，Leetcode上还给出了另外一道与杨辉三角有关的上述题型的变种（打出完整的三角），如下：
 
-
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/leetcode/leetcode15.png" width="550">
+</p>
 
 这个网站的的好处在于它会告诉你测试数据以及你的输出和正确的输出是什么，方便大家调试学习。目前，支持C、C++、Java、Python、Ruby等多种语言。另外它是支持在线编辑，还提供了一个在线运行环境，可以直接看到运行结果。对于有兴趣刷题目或者正在求职过程中的同学，我也推荐这个资源！
 
