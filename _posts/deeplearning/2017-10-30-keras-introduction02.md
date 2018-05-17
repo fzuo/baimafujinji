@@ -78,7 +78,7 @@ model.summary()  
 上述代码的输出结果如下：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/keras/keras03.png" width="560">
+<img src="https://fzuo.github.io/assets/img/keras/keras03.png" width="450">
 </p>
 
 接下来就可以进入第二步，即<span style="color:blue">Model compilation</span>。同样跟之前用过的方法一致，其中metrics表示你希望Keras在优化过程中同时计算的一些量：
@@ -159,7 +159,7 @@ plt.imshow(X_test_0.reshape([28,28]))  
 输出的图像如下：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/keras/keras05.png" width="300">
+<img src="https://fzuo.github.io/assets/img/keras/keras05.png" width="240">
 </p>
 
 接下来看看模型预测的结果如何：
