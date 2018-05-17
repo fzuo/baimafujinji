@@ -37,7 +37,7 @@ print(X_test.shape, y_test.shape)
 
 其中，60000是训练数据集中图像之数量，10000是测试数据集中图像之数量，28×28是图片的大小。
 
-接下来，要对输入的数据做一些预处理。将每个二维的图像矩阵转换成一个一维的向量，然后再将像素值做归一化，也就是从0~255的取值压缩到0~1之间。
+接下来，要对输入的数据做一些预处理。将每个二维的图像矩阵转换成一个一维的向量，然后再将像素值做归一化，也就是从0\~255的取值压缩到0\~1之间。
 
 ```python
 X_train = X_train.reshape(X_train.shape[0], -1) # 等价于X_train = X_train.reshape(60000,784)  
@@ -81,7 +81,7 @@ model.summary()  
 <img src="https://fzuo.github.io/assets/img/keras/keras03.png" width="560">
 </p>
 
-接下来就可以进入第二步，即Model compilation。同样跟之前用过的方法一致，其中metrics表示你希望Keras在优化过程中同时计算的一些量：
+接下来就可以进入第二步，即<span style="color:blue">Model compilation</span>。同样跟之前用过的方法一致，其中metrics表示你希望Keras在优化过程中同时计算的一些量：
 
 ```python
 model.compile(loss = 'categorical_crossentropy',  
@@ -102,8 +102,24 @@ model.compile(optimizer=rmsprop,  
 
 然后就可以进入模型训练阶段了。
 
+```python
+history = model.fit(X_train, y_train, epochs=10, batch_size=128,  
+                   verbose = 1, validation_data=[X_test, y_test])  
+```
 
+你可以看到模型的准确率已经达到了98%以上。
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/keras/keras04.png" width="560">
+</p>
+
+如果你想查看一下模型中设定的参数，可以使用：
+
+```python
+history.params  
+```
+
+输出如下：
 
 ```
 {'batch_size': 128,
@@ -115,7 +131,36 @@ model.compile(optimizer=rmsprop,  
  'verbose': 1}
  ```
 
+最后我们来做一下<span style="color:blue">Evaluation and Prediction</span>。下面是评估的部分：
 
+```python
+score = model.evaluate(X_test, y_test, verbose = 0)  
+print('Test score:', score[0])  
+print('Test accuracy:', score[1])  
+```
+
+输出如下：
+
+```
+Test score: 0.0857994918345
+Test accuracy: 0.9815
+```
+
+准确率为98.15%，其实这个值与在之前训练过程最终输出的val_acc是一致的。
+
+下面来看预测的部分，为此先输出一张测试图像：
+
+```python
+X_test_0 = X_test[0,:].reshape(1,784)  
+y_test_0 = y_test[0,:]  
+plt.imshow(X_test_0.reshape([28,28]))  
+```
+
+输出的图像如下：
+
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/keras/keras05.png" width="300">
+</p>
 
 接下来看看模型预测的结果如何：
 
