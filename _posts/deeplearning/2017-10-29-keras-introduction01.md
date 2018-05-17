@@ -1,10 +1,17 @@
-
+---
+layout: post
+title: 跟我一起学Keras之实例篇(1)
+category: 深度学习
+tags: Keras
+keywords: Keras,深度学习
+---
 
 
 现在人工智能，特别是深度学习可谓风光无限，加之各种框架神器层出不穷也令深度学习不再是什么空中楼阁。由于工具化的趋势越来越明显，现在要自行搭建一个深度神经网络已经变得越来越容易。你可能听说过的框架有TensorFlow、Theano、Torch、Caffe、MXNet等等，今天我们就要来介绍构建神经网络最为容易的一个框架——Keras。之所以说Keras是当前构建神经网络最为容易的框架，就是因为相比于Theano和TensorFlow，你会发现使用Keras，你所需要自行编写的代码是最少的。真是不得不令人感叹：没有对比，就没有伤害。
 
-总的来说，使用Keras构建神经网络的基本工作流程主要可以分为4个部分。而且这个用法和思路我个人感觉，很像是在使用Scikit-learn中的机器学习方法
-Model definition → Model compilation → Training → Evaluation and Prediction 
+总的来说，使用Keras构建神经网络的基本工作流程主要可以分为4个部分。而且这个用法和思路我个人感觉，很像是在使用Scikit-learn中的机器学习方法<br>
+<p align="center">
+<span style="color:blue">Model definition → Model compilation → Training → Evaluation and Prediction </span></p><br>
 下面我们就通过一个非常简单的例子来一步一步地演示如果在Keras中构建一个简单的用于回归的神经网络。这个例子基本上跟文章【TensorFlow简明入门宝典 】中最后给出的那个求解线性回归的例子要做的事情是一致的。
 
 首先，我们人为地造一组由 y = 0.5x + 2 加上一些噪声而生成的数据，数据量一共有200个，其中前160作为train set，后40作为test set。
@@ -27,8 +34,11 @@ X_test, Y_test = X[160:], Y[160:]       # test remaining 40 data�
 
 可以用matplotlib中提供的方法来绘制一下数据的分布情况：
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/keras/keras01.png" width="400">
+</p>
 
-接下来，我们要执行构建模型的第一步，即Model Definition。这一步的作用就是定义NN中的层次结构。为此要引入两个重要的类，Sequential和Dense。
+接下来，我们要执行构建模型的第一步，即<span style="color:blue">Model Definition</span>。这一步的作用就是定义NN中的层次结构。为此要引入两个重要的类，Sequential和Dense。
 
 ```python
 from keras.models import Sequential  
@@ -44,7 +54,7 @@ model = Sequential()  
 model.add(Dense(output_dim = 1, input_dim = 1))  
 ```
 
-接下来执行构建模型的第一步，即Model compilation。这一步是要指定模型中的loss function（在这例子中使用的是最小二乘误差‘mse’），优化器以及metrics等内容。优化器你可以使用系统提供的默认优化器，例如你可以像下面这样用'sgd'表示随机梯度下降。
+接下来执行构建模型的第一步，即<span style="color:blue">Model compilation</span>。这一步是要指定模型中的loss function（在这例子中使用的是最小二乘误差‘mse’），优化器以及metrics等内容。优化器你可以使用系统提供的默认优化器，例如你可以像下面这样用'sgd'表示随机梯度下降。
 
 ```python
 model.compile(loss='mse', optimizer='sgd')  
@@ -90,7 +100,7 @@ train cost:  0.0260792
 train cost:  0.0256752
 ```
 
-最后，终于可以进入Evaluation and Prediction的部分了。对于之前预留的测试集来说，你可以使用：
+最后，终于可以进入<span style="color:blue">Evaluation and Prediction</span>的部分了。对于之前预留的测试集来说，你可以使用：
 
 ```python
 cost = model.evaluate(X_test, Y_test, batch_size=40)
@@ -108,7 +118,7 @@ print('Weights=', W, '\nbiases=', b)  
 
 我的程序输出结果如下：
 
-```python
+```
 Testing ------------  
 40/40 [==============================] - 0s  
 test cost: 0.0254213  
@@ -127,6 +137,9 @@ plt.show()  
 
 输出之图形如下：
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/keras/keras02.png" width="400">
+</p>
 
 最后，我个人认为【1】是入门Keras的一个非常好的Talk。另外，本文的jupyter notebook文件，你可以从下面的链接【3】中获取到。
 
@@ -136,3 +149,5 @@ plt.show()  
 【1】 [文献链接1](https://www.youtube.com/watch?v=OUMDUq5OJLg)<br>
 【2】 [文献链接2](https://keras.io/#getting-started-30-seconds-to-keras)<br>
 【3】 [文献链接3](https://pan.baidu.com/s/1jI8CgHw)<br>
+
+<span style="color:blue">**（本文完）**</span>
