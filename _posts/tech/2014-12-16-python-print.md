@@ -3,7 +3,7 @@ layout: post
 title: Python里的print用法总结
 category: 编程与开发
 tags: Python
-use_math: true
+#use_math: true
 keywords: Python,print
 ---
 
