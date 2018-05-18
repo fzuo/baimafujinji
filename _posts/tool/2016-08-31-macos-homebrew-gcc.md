@@ -1,6 +1,6 @@
 ---
 layout: post
-title: macOS上安装Homebrew和GCC的图文攻略
+title: macOS上安装Homebrew和GCC的攻略
 category: 技巧与工具
 tags: GCC
 keywords: GCC,Homebrew
