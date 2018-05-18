@@ -57,7 +57,7 @@ The length of hello is 5
 5、字符串格式化转换类型
 
 <style>
-.tablelines table, .tablelines th {
+.tablelines table, .tablelines td, .tablelines th {
         border: 1px solid black;
         }
 </style>
