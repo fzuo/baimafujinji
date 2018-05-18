@@ -54,13 +54,13 @@ for(i=0;i<n;i++){
 当然，你一定会想到的是，实际中，通常并不可能有像矩阵元素那么多的处理器资源。这时我们该怎么做。对于一个大小为n × n 的大矩阵A，我们其实可以把它切分成$$s^2$$个子矩阵$$A_{p,q}$$，每个子矩阵的大小为 m × m，其中 m = n / s，即0 <= p, q < s。对于两个大矩阵A和B，现在我们有：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/parallel/parallel14.png" width="200">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel15.png" width="200">
 </p>
 
 用图示表示则有：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/parallel/parallel15.png" width="540">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel16.png" width="540">
 </p>
 
 ### Cannon算法
