@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: post
 title: Python里的print用法总结
 category: 编程与开发
 tags: Python
