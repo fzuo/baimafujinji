@@ -17,4 +17,8 @@
   {% feed_meta %}
 
   <script src="{{ "/assets/js/prefixfree.js" | prepend: site.baseurl }}"></script>
+  
+  {% if page.use_math %}
+     {% include mathjax_support %}
+  {% endif %}
 </head>
