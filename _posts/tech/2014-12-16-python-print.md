@@ -4,6 +4,7 @@ title: Python里的print用法总结
 category: 编程与开发
 tags: Python
 keywords: Python,print
+use_math: true
 ---
 
 在Python中接受来自用户的输入很简单，可以使用input，它类似于C语言里的 scanf 或者C++中的 cin。
