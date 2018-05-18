@@ -16,7 +16,7 @@ Michael J. Flynn是美国斯坦福大学的计算机教授，1972年他提出了
 这其实也为并行计算的模型提供了四种实现方式（当前其中SISD其实就是串行的）。下图给出了SISD的抽象示意图，其中PE是precessing element，M表示Memory：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/parallel/parallel02.png" width="400">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel02.png" width="380">
 </p>
 
 对于涉及大量并行数据的应用而言，SIMD架构的机器无疑是性价比最高的选择。在这种机器上，单个的control unit会将 instructions 向多个 processing elements 并行地进行广播，其中每个PE都是拥有本地存储器的一个功能单元集合。下图是SIMD的抽象示意图：
