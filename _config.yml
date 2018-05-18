@@ -21,19 +21,10 @@ github: suyan
 avatar: https://fzuo.github.io/assets/img/baimafujinji.png
 favicon: https://fzuo.github.io/assets/img/baimafujinji.png
 
-# disqus config
-disqus:
-  shortname: suyan-zh
-
-# google analytics config
-ga:
-  id: UA-54767140-1
-  url: yansu.org
-
 # Build settings
 permalink: /:year/:month/:day/:title.html
 # markdown: kramdown
-# markdown: maruku
+markdown: redcarpet
 # markdown_ext: markdown,mkd,mkdn,md
 highlighter: rouge
 # mathjax: disabled
