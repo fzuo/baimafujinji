@@ -73,7 +73,7 @@ SWI-Prolog 中支持形如 `/* ... */` 的嵌套注释。而 ISO 标准则允许
 
 <img src="https://fzuo.github.io/assets/img/program/program02.png" width="560">
 
-`关于Prolog的一些资源`
+<span style="color:orange">**关于Prolog的一些资源**</span>
 
 - 两个推荐使用的IDE
   + Visual Prolog （[链接](http://www.visual-prolog.com/)）商业版，功能强大，可视化
