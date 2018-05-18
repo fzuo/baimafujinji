@@ -2,7 +2,7 @@
 layout: post
 title: k-means聚类及其Python实例
 category: 数据挖掘
-tags: Data mining
+tags: k-means
 keywords: k-means,数据挖掘
 ---
 
@@ -174,5 +174,3 @@ plt.show()
 [^1]:[网址链接1](http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
 
 [^2]:[网址链接2](http://scikit-learn.org/stable/auto_examples/cluster/plot_color_quantization.html)
-
-<span style="color:blue">**（本文完）**</span>
