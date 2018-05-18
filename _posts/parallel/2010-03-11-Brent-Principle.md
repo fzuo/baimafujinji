@@ -19,7 +19,7 @@ keywords: Brent原理
 **证明：**直觉上，如果第 i 个步骤需要执行 $$m_i$$ 个操作，当有 p 个处理器时，那么它可以在如下时间内被模拟
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/parallel/parallel07.png" width="60">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel07.png" width="45">
 </p>
 
 而且上式必然满足：
