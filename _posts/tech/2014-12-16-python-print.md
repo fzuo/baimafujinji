@@ -56,6 +56,12 @@ The length of hello is 5
 
 5、字符串格式化转换类型
 
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        }
+</style>
+
 | 转换类型      |含义          | 
 | -------------|-------------| 
 | d,i          |带符号的十进制整数 |
@@ -135,41 +141,6 @@ Name:Tom        Age:      18 Height:1.83
 
 <span style="color:blue">**（本文完）**</span>
 
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-        border: 1px solid black;
-        }
-</style>
 
-| P | Q | P * Q |
-| - | - | - |
-| T | T | T |
-| T | F | F |
-| F | T | F |
-| F | F | F |
-{: .tablelines}
-
-|---|---|---|
-|a  | b | c|
-| 1|2|3|
-{: .tablelines}
-
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
-{: .tablelines}
-
-| A simple | table |
-| with multiple | lines|
-{: .tablelines}
 
 
