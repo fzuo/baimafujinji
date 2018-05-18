@@ -34,10 +34,11 @@ ga:
 permalink: /:year/:month/:day/:title.html
 # markdown: kramdown
 markdown: maruku
+markdown_ext: markdown,mkd,mkdn,md
 highlighter: rouge
 # mathjax: disabled
-sass:
-  style: compressed
+# sass:
+# style: compressed
 
 # Jekyll Plugin
 # https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
