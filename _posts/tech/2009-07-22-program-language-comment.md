@@ -76,8 +76,8 @@ SWI-Prolog 中支持形如 `/* ... */` 的嵌套注释。而 ISO 标准则允许
 `关于Prolog的一些资源`
 
 - 两个推荐使用的IDE
-  + Visual Prolog (http://www.visual-prolog.com/) 商业版，功能强大，可视化
-  + SWI_Prolog (http://www.swi-prolog.org/) 免费版，灵巧方便，值得推荐
+  + Visual Prolog （[链接](http://www.visual-prolog.com/)）商业版，功能强大，可视化
+  + SWI_Prolog（[链接](http://www.swi-prolog.org/)）免费版，灵巧方便，值得推荐
 - 一个在线教程——[Learn Prolog Now!](http://www.learnprolognow.org/)
 
 <span style="color:blue">**（本文完）**</span>
