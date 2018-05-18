@@ -79,11 +79,11 @@ for(i=0;i<n;i++){
 
 Cannnon算法的具体流程：
 
-<img src="https://fzuo.github.io/assets/img/parallel/parallel19.png" width="600">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel19.png" width="620">
 
 下面是矩阵位移的一个示例，其中s=3；
 
-<img src="https://fzuo.github.io/assets/img/parallel/parallel20.png" width="380">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel20.png" width="360">
 
 显然，算法的复杂度 t(n)=O(n)， $$p(n) = n^2$$，$$w(n) = O(n^3)$$，所以是成本最佳的。
 
