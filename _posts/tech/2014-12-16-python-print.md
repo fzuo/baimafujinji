@@ -56,6 +56,12 @@ The length of hello is 5
 
 5、字符串格式化转换类型
 
+<style>
+.tablelines table {
+        border: 1px solid black;
+        }
+</style>
+
  转换类型      |含义           
 ---|---
  d,i          |带符号的十进制整数 
