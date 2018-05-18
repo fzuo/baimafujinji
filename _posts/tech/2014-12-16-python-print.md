@@ -63,7 +63,6 @@ The length of hello is 5
 </style>
 
 | 转换类型      |含义          | 
-| -------------|-------------| 
 | d,i          |带符号的十进制整数 |
 | o            |不带符号的八进制 |
 | u            |不带符号的十进制 |
@@ -79,7 +78,8 @@ The length of hello is 5
 | s            |字符串（使用str转换任意python对象） |
 {: .tablelines}
 
-来看一些例子：
+
+<br>来看一些例子：
 
 ```python
 >>> pi = 3.141592653
@@ -140,7 +140,5 @@ Name:Tom        Age:      18 Height:1.83
 > 本文中之例子皆基于Python 3.6完成。笔者所使用的IDE是Spyder 3.1.4。
 
 <span style="color:blue">**（本文完）**</span>
-
-
 
 
