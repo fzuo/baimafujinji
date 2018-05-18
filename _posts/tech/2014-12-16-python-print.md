@@ -132,7 +132,7 @@ Name:Tom        Age:      18 Height:1.83
 
 > 本文中之例子皆基于Python 3.6完成。笔者所使用的IDE是Spyder 3.1.4。
 
-Let's test some math $x$, $y$, $x_1$, $y_1$.
+Let test some math $x$, $y$, $x_1$, $y_1$.
 
 
 <span style="color:blue">**（本文完）**</span>
