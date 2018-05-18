@@ -71,6 +71,7 @@ The length of hello is 5
 | C            |单字符（接受整数或者单字符字符串） |
 | r            |字符串（使用repr转换任意python对象) |
 | s            |字符串（使用str转换任意python对象） |
+{: .tablelines}
 
 来看一些例子：
 
