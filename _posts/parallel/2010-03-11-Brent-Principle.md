@@ -14,12 +14,12 @@ keywords: Brent原理
 <img src="https://fzuo.github.io/assets/img/parallel/parallel06.png" width="160">
 </p>
 
-那么当给定 p 个处理器时，并且要求 $p\leq max_i m_i$，（相同计算量的）算法C可以在时间 $T_p$ 内（即$T_p$个步骤内）完成，而且$T_p$小于等于 t+($m_i$-t)/p 时间完成。
+那么当给定 p 个处理器时，并且要求 $$p\leq max_i m_i$$，（相同计算量的）算法C可以在时间 $$T_p$$ 内（即$$T_p$$个步骤内）完成，而且$$T_p$$小于等于 $$t+(m_i-t)/p$$ 时间完成。
 
-**证明：**直觉上，如果第 i 个步骤需要执行 $m_i$ 个操作，当有 p 个处理器时，那么它可以在如下时间内被模拟
+**证明：**直觉上，如果第 i 个步骤需要执行 $$m_i$$ 个操作，当有 p 个处理器时，那么它可以在如下时间内被模拟
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/parallel/parallel07.png" width="40">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel07.png" width="60">
 </p>
 
 而且上式必然满足：
