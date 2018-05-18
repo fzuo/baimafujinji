@@ -32,7 +32,8 @@ ga:
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
-markdown: kramdown
+# markdown: kramdown
+markdown: maruku
 highlighter: rouge
 # mathjax: disabled
 sass:
