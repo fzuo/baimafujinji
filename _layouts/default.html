@@ -4,6 +4,12 @@ layout: compress
 <!DOCTYPE html>
 <html>
   {% include head.html %}
+    <head>
+    {% include html_meta %}
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
+  </head>
   <body>
     {% include sidebar.html %}
 
