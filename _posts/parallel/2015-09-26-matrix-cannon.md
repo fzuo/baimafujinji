@@ -14,7 +14,7 @@ keywords: Cannon算法,矩阵乘法
 根据线性代数的基本知识，m × l 的矩阵A，乘以一个大小为 l × n 的矩阵B，将得到一个 m × n 的矩阵C=A×B，其中
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/parallel/parallel13.png" width="200">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel13.png" width="160">
 </p>
 
 下图是用图示来表示的这种计算规则：
