@@ -133,8 +133,8 @@ HPI = (264+139+139)/3 = 180.7
 ----------------------
 ### 参考文献：
 
-[^1]:【1】[网址链接1](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier)
-[^2]:【2】[网址链接2](http://www.saedsayad.com/k_nearest_neighbors_reg.htm)
+[^1]:[网址链接1](http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier)
+[^2]:[网址链接2](http://www.saedsayad.com/k_nearest_neighbors_reg.htm)
 
 
 <span style="color:blue">**（本文完）**</span>
