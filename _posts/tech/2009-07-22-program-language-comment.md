@@ -61,7 +61,7 @@ Haskell 中单行注释 以 `--` (two hyphens) 开始；
 
 多行注释则以  `{-` 开始，并以 `-}` 结尾。
 
-<img src="https://fzuo.github.io/assets/img/program/program01.png" width="350">
+<img src="https://fzuo.github.io/assets/img/program/program01.png" width="320">
 
 Hasskell[官网](https://www.haskell.org/)
 
@@ -71,14 +71,13 @@ Hasskell[官网](https://www.haskell.org/)
 
 SWI-Prolog 中支持形如 `/* ... */` 的嵌套注释。而 ISO 标准则允许形如 `/* ... /* ... */` 的注释, SWI-Prolog 会搜索注释的终止符 `*/`。
 
-<img src="https://fzuo.github.io/assets/img/program/program02.png" width="520">
+<img src="https://fzuo.github.io/assets/img/program/program02.png" width="560">
 
 `关于Prolog的一些资源`
 
 - 两个推荐使用的IDE
 
 + Visual Prolog (http://www.visual-prolog.com/) 商业版，功能强大，可视化
-
 + SWI_Prolog (http://www.swi-prolog.org/) 免费版，灵巧方便，值得推荐
 
 - 一个在线教程——[Learn Prolog Now!](http://www.learnprolognow.org/)
