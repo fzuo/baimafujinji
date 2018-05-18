@@ -16,19 +16,19 @@ Michael J. Flynn是美国斯坦福大学的计算机教授，1972年他提出了
 这其实也为并行计算的模型提供了四种实现方式（当前其中SISD其实就是串行的）。下图给出了SISD的抽象示意图，其中PE是precessing element，M表示Memory：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/parallel/parallel02.png" width="420">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel02.png" width="400">
 </p>
 
 对于涉及大量并行数据的应用而言，SIMD架构的机器无疑是性价比最高的选择。在这种机器上，单个的control unit会将 instructions 向多个 processing elements 并行地进行广播，其中每个PE都是拥有本地存储器的一个功能单元集合。下图是SIMD的抽象示意图：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/parallel/parallel03.png" width="470">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel03.png" width="420">
 </p>
 
 现在市场上的多处理系统更多属于MIMD架构的，它比SIMD更进一步。一些标准的处理器和存储芯片通过高速总线在内部进行连接（memory通常是交织的）。下图是MIMD的抽象示意图：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/parallel/parallel04.png" width="470">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel04.png" width="450">
 </p>
 
 美国计算机科学家、纽约大学教授Jacob T. Schwartz定义了两种大致的方法来组织处理器和内存，即Paracomputers和Ultracomputers。Paracomputers将memory从处理中分离出来。Memory是共享的，处理器之间通过共享的memory来进行通讯。在Paracomputers中，如果我们认为每一个内存地址都可以被每一个处理器均等地访问，那么就可以据此认为PRAM模块以这种方式来被Paracomputers近似地模拟。另一方面，Ultracomputers将memory分配给若干个处理器，这样就形成了众多modules，一个处理器可以用恒定时间来访问它的module上的memory，但是访问远程的module上的memory则要耗费更长时间。
