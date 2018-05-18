@@ -54,7 +54,7 @@ for(i=0;i<n;i++){
 当然，你一定会想到的是，实际中，通常并不可能有像矩阵元素那么多的处理器资源。这时我们该怎么做。对于一个大小为n × n 的大矩阵A，我们其实可以把它切分成$$s^2$$个子矩阵$$A_{p,q}$$，每个子矩阵的大小为 m × m，其中 m = n / s，即0 <= p, q < s。对于两个大矩阵A和B，现在我们有：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/parallel/parallel15.png" width="200">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel15.png" width="160">
 </p>
 
 用图示表示则有：
@@ -65,14 +65,25 @@ for(i=0;i<n;i++){
 
 ### Cannon算法
 
-著名的Cannnon算法使用一个由s^2个处理器组成的二维网孔结构（mesh），而且这个mesh还是周边带环绕的（The processors are connected as a torus）。处理器Processor (i,j) （我们用它来表示位于位置(i,j)处的处理器）最开始时存有子矩阵Ai,j和Bi,j。随着算法的进行，这些子矩阵会向左或向上位移。如下图所示：
+著名的Cannnon算法使用一个由$$s^2$$个处理器组成的二维网孔结构（mesh），而且这个mesh还是周边带环绕的（The processors are connected as a torus）。处理器Processor (i,j) （我们用它来表示位于位置(i,j)处的处理器）最开始时存有子矩阵$$A_{i,j}$$和$$B_{i,j}$$。随着算法的进行，这些子矩阵会向左或向上位移。如下图所示：
+
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel17.png" width="300">
+</p>
 
 这个算法的根本出发点是在处理器阵列中，要合理分布两个待乘的矩阵元素。由乘积公式可知，要在处理单元 P(i,j)中计算乘积元素C(i,j)，必须在该单元中准备好矩阵元素A(i,s)和B(s,j)。但是如果我们像下图那样分布矩阵元素，我们在计算C(i,j)时所需的元素显然是不足够的，但是可以通过向上循环位移B的元素，并向左循环位移A的元素，来获取合适的成对的矩阵元素。
 
+<p align="center">
+<img src="https://fzuo.github.io/assets/img/parallel/parallel18.png" width="300">
+</p>
+
 Cannnon算法的具体流程：
 
+<img src="https://fzuo.github.io/assets/img/parallel/parallel19.png" width="600">
 
 下面是矩阵位移的一个示例，其中s=3；
+
+<img src="https://fzuo.github.io/assets/img/parallel/parallel20.png" width="380">
 
 显然，算法的复杂度 t(n)=O(n)， $$p(n) = n^2$$，$$w(n) = O(n^3)$$，所以是成本最佳的。
 
