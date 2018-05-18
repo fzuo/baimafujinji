@@ -8,7 +8,7 @@ keywords: Brent原理
 
 > 在将一个问题的内在并行性(inherent parallelism)转化为一个有效的并行算法时，Brent原理（Brent’s Principle）为这种并行化提供了一个普遍的模式。该结论最初由Richard P. Brent于1974年给出。
 
-`Brent’s Principle：`考虑一个计算（或算法）C，在提供足够多的处理器资源之前提下（并忽略操作之间用于交互的耗时），算法C能够在PRAM上以时间 t 完成（也就是需要t个并行的步骤），假设mi表示第 i 个步骤涉及到的操作数量，并且令
+`Brent’s Principle：`考虑一个计算（或算法）C，在提供足够多的处理器资源之前提下（并忽略操作之间用于交互的耗时），算法C能够在PRAM上以时间 t 完成（也就是需要t个并行的步骤），假设$$m_i$$表示第 i 个步骤涉及到的操作数量，并且令
 
 <p align="center">
 <img src="https://fzuo.github.io/assets/img/parallel/parallel06.png" width="160">
