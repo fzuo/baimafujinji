@@ -23,7 +23,8 @@ favicon: https://fzuo.github.io/assets/img/baimafujinji.png
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
-markdown: kramdown
+#markdown: kramdown
+markdown: maruku
 # markdown_ext: markdown,mkd,mkdn,md
 highlighter: rouge
 # mathjax: disabled
