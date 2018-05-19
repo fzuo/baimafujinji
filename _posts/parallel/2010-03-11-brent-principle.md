@@ -48,3 +48,6 @@ keywords: Brent原理
 
 <span style="color:blue">**（本文完）**</span>
 
+<script>
+MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+</script>
