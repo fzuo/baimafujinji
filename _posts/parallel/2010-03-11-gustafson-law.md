@@ -44,3 +44,7 @@ Gustafson定律由美国计算机科学家John Gustafson及其合作者于1988�
 【2】 周伟明，多核计算与程序设计，华中科技大学出版社，2009年
 
 <span style="color:blue">**（本文完）**</span>
+
+<script>
+MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+</script>
