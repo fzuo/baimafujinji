@@ -28,7 +28,7 @@ markdown: kramdown
 #markdown: maruku
 #markdown_ext: markdown,mkd,mkdn,md
 highlighter: rouge
-mathjax: true
+# mathjax: true
 # sass:
 # style: compressed
 
