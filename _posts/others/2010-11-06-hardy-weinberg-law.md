@@ -6,6 +6,8 @@ tags: 奇妙的数学
 keywords: Hardy,Weinberg
 ---
 
+
+
 <img align="right" src="https://fzuo.github.io/assets/img/vs_msb802/GHHardy.png" width="180">  
 哈代-温伯格（Hardy-Weinberg）定律是遗传学中一个著名的结论，而且它也是一个非常有名的应用数学问题。众所周知，自孟德尔的豌豆实验以来，遗传学逐渐成为生物学研究中非常重要的领域。根据基本的高中生物学常识我们知道，人眼的颜色受两个基因的控制：G表示棕色（brown），g表示蓝色（blue），G对g呈显性。所以，如果一个人眼睛颜色的基因为GG或Gg，则他的眼睛颜色都表现为brown，只有当其眼睛颜色的基因为gg时，他眼睛的颜色才表现为blue。于是人们就疑问：如果按照这个规律逐渐繁衍下去，那么蓝色眼睛的人会不会越来越少直至消失？这个争议在二十世纪初的生物学界引起了极大的讨论和研究兴趣。最终，英国大数学家哈代（也就是电影《知无涯者》中拉马努金的老师）和德国医生温伯格几乎同时从数学的角度给出了这个问题的证明（约1908年）。而且，据说哈代是在跟生物学家打板球的时候无意间听说到这个有趣的生物学问题的。
 
@@ -35,7 +37,7 @@ keywords: Hardy,Weinberg
 <img src="https://fzuo.github.io/assets/img/vs_msb802/hardy_w_04.png" width="320">
 </p>
 
-也就得到$$M_0=M_1=M_2=\cdots$$，所以这确实是一个马尔科夫链问题。如果$$W_0$$表示这一代的基因分布，MW0表示下一代的基因分布，$$M^2W_0$$表示再一代的基因分布，则有$$M(MW_0) = MW_0$$。In conclusion, the games reach equilibrium after the first generation. 这也就是Hardy-Weinberg Law的主要结论。
+也就得到$$M_0=M_1=M_2=\cdots$$，所以这确实是一个马尔科夫链问题。如果$$W_0$$表示这一代的基因分布，$$MW_0$$表示下一代的基因分布，$$M^2W_0$$表示再一代的基因分布，则有$$M(MW_0) = MW_0$$。In conclusion, the games reach equilibrium after the first generation. 这也就是Hardy-Weinberg Law的主要结论。
 
 
 <span style="color:blue">**（本文完）**</span>
