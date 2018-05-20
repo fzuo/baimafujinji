@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何记住OSI七层协议模型
-category: 闲话二三事
+category: 围炉夜话
 tags: Network
 keywords: OSI网络模型
 ---
