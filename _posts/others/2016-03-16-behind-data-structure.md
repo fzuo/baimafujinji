@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 隐匿在数据结构背后的原理
-category: 闲话二三事
-tags: Computer history
+category: 围炉夜话
+tags: History
 keywords: 希尔伯特之问,图灵
 ---
 
