@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 数据库领域三大国际顶级会议
-category: 闲话二三事
+category: 围炉夜话
 tags: Conference
 keywords: SIGMOD,VLDB,ICDE
 ---
