@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 计划行为理论
-category: 闲话二三事
+category: 围炉夜话
 tags: TPB
 keywords: TPB,计划行为理论
 ---
