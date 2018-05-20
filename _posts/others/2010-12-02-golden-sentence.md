@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于编程与数学的名言金句
-category: 闲话二三事
+category: 围炉夜话
 tags: Maxim
 keywords: 金句,编程,数学
 ---
