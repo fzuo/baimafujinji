@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 知无涯者（The Man Who Knew Infinity）
-category: 闲话二三事
-tags: Dream
+category: 围炉夜话
+tags: Story
 keywords: 传记,拉马努金
 ---
 
