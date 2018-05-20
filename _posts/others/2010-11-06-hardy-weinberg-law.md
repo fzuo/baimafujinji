@@ -27,13 +27,13 @@ keywords: Hardy,Weinberg
 于是，下一代人口中各种基因携带者的几率分布向量（经过化简）为：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/vs_msb802/hardy_w_03.png" width="250">
+<img src="https://fzuo.github.io/assets/img/vs_msb802/hardy_w_03.png" width="210">
 </p>
 
 同理，$$M_1=p'A+q'B+r'C$$，于是有
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/vs_msb802/hardy_w_04.png" width="350">
+<img src="https://fzuo.github.io/assets/img/vs_msb802/hardy_w_04.png" width="320">
 </p>
 
 也就得到$$M_0=M_1=M_2=\cdots$$，所以这确实是一个马尔科夫链问题。如果$$W_0$$表示这一代的基因分布，MW0表示下一代的基因分布，$$M^2W_0$$表示再一代的基因分布，则有$$M(MW_0) = MW_0$$。In conclusion, the games reach equilibrium after the first generation. 这也就是Hardy-Weinberg Law的主要结论。
