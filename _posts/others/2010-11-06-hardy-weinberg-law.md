@@ -30,13 +30,13 @@ keywords: Hardy,Weinberg
 <img src="https://fzuo.github.io/assets/img/vs_msb802/hardy_w_03.png" width="250">
 </p>
 
-同理，M1=p'A+q'B+r'C，于是有
+同理，$$M_1=p'A+q'B+r'C$$，于是有
 
 <p align="center">
 <img src="https://fzuo.github.io/assets/img/vs_msb802/hardy_w_04.png" width="350">
 </p>
 
-也就得到$$M_0=M_1=M_2=\cdots$$，所以这确实是一个马尔科夫链问题。如果W0表示这一代的基因分布，MW0表示下一代的基因分布，M2W0表示再一代的基因分布，则有M(MW0) = MW0。In conclusion, the games reach equilibrium after the first generation. 这也就是Hardy-Weinberg Law的主要结论。
+也就得到$$M_0=M_1=M_2=\cdots$$，所以这确实是一个马尔科夫链问题。如果$$W_0$$表示这一代的基因分布，MW0表示下一代的基因分布，$$M^2W_0$$表示再一代的基因分布，则有$$M(MW_0) = MW_0$$。In conclusion, the games reach equilibrium after the first generation. 这也就是Hardy-Weinberg Law的主要结论。
 
 
 <span style="color:blue">**（本文完）**</span>
