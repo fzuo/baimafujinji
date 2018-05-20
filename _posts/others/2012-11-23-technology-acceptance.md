@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 技术接受模型
-category: 闲话二三事
+category: 围炉夜话
 tags: TPB
 keywords: TAM,技术接受模型
 ---
