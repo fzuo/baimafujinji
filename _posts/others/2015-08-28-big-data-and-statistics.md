@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 大数据时代，统计学依然是数据分析灵魂
-category: 闲话二三事
-tags: Dream
+category: 围炉夜话
+tags: 时评与观点
 keywords: 大数据,统计
 ---
 
