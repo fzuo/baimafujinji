@@ -25,37 +25,43 @@ X^*_{\frac{n+1}{2}},\quad 当n为奇数时\\
 
 ### 二、经验分布函数（EDF，Empirical Distribution Functions）
 
-设 $x_1,x_2,\cdots,x_n$ 是总体 $X$ 的一组容量为 $n$ 的样本观测值，将它们按从小到大的顺序重新排列为 $x^*_1,x^*_2,\cdots,x^*_n$，对于任意实数 $x$，定义函数
-$$F_n(x)=\begin{cases}
+设 $$x_1,x_2,\cdots,x_n$$ 是总体 $$X$$ 的一组容量为 $$n$$ 的样本观测值，将它们按从小到大的顺序重新排列为 $$x^*_1,x^*_2,\cdots,x^*_n$$，对于任意实数 $$x$$，定义函数
+
+<script type="math/tex; mode=display">F_n(x)=\begin{cases}
 0,\quad x<x^*_1\\
 k/n,\quad x^*_{k}\leq x<x^*_{k+1}, \quad k=1,2,\cdots,n-1\\
 1,\quad x^*_n\leq x
-\end{cases}$$
+\end{cases}</script>
+
 则称 $F_n(x)$ 为总体 $X$ 的经验分布函数。它还可以简记为 $F_n(x)=1/n\cdot\ ^*\{x_1,x_2,\cdots,x_n\}$，其中 $^*\{x_1,x_2,\cdots,x_n\}$ 表示 $x_1,x_2,\cdots,x_n$ 中不大于 $x$ 的个数。
 另外一种常见的表示形式为
-$$F_n(x)=\frac{1}{n}\sum_{i=1}^nI\{x_i\leq x\}$$
+
+<script type="math/tex; mode=display">F_n(x)=\frac{1}{n}\sum_{i=1}^nI\{x_i\leq x\}$$
 其中，$I$ 是indicator function, 即
 $$I\{x_i\leq x\}=\begin{cases}
 1,\quad x_i\leq x\\
 0,\quad otherwise
-\end{cases}$$
-因此，求经验分布函数 $F_n(x)$ 在一点 $x$ 处的值，只要求出随机变量 $X$ 的 $n$ 个观测值 $x_1,x_2,\cdots,x_n$ 中小于或等于 $x$ 的个数，再除以观测次数 $n$ 即可。由此可见，$F_n(x)$ 就是在 $n$ 次重复独立实验中事件 $\{X\leq x\}$ 出现的频率。
+\end{cases}</script>
 
-经验分布函数 $F_n(x)$ 的图形（如下图所示）是一条呈跳跃上升的阶梯形曲线。如果样本观测值 $x_1,x_2,\cdots, x_n$ 中没有重复的数值，则每一跳跃为 $1/n$，若有重复 $l$ 次的值，则按 $1/n$ 的 $l$ 倍跳跃上升。图中圆滑曲线是总体 $X$ 的理论分布函数 $F(x)$ 的图形。若把经验分布函数的图形连成折线，那么它实际就是累积频率直方图的上边。
+因此，求经验分布函数 $$F_n(x)$$ 在一点 $$x$$ 处的值，只要求出随机变量 $X$ 的 $n$ 个观测值 $x_1,x_2,\cdots,x_n$ 中小于或等于 $x$ 的个数，再除以观测次数 $$n$$ 即可。由此可见，$$F_n(x)$$ 就是在 $$n$$ 次重复独立实验中事件 $\{X\leq x\}$ 出现的频率。
+
+经验分布函数 $$F_n(x)$$ 的图形（如下图所示）是一条呈跳跃上升的阶梯形曲线。如果样本观测值 $x_1,x_2,\cdots, x_n$ 中没有重复的数值，则每一跳跃为 $1/n$，若有重复 $$l$$ 次的值，则按 $1/n$ 的 $l$ 倍跳跃上升。图中圆滑曲线是总体 $X$ 的理论分布函数 $F(x)$ 的图形。若把经验分布函数的图形连成折线，那么它实际就是累积频率直方图的上边。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/excel/excel18.png" width="420">
+<img src="https://fzuo.github.io/assets/img/excel/excel18.png" width="360">
 </p>
 
 这和概率分布函数的性质是一致的。
 
 ### 三、格利文科定理（Glivenko Theorem）
 
-根据大数定理可知，当试验次数增大时，事件的频率稳定于概率。那么，当试验次数增大时，表示事件 $\{X\leq x\}$ 出现频率的经验分布函数是否接近于表示事件 $\{X\leq x\}$ 出现概率的总体分布函数呢？这个问题可由格利文科定理来回答。
+根据大数定理可知，当试验次数增大时，事件的频率稳定于概率。那么，当试验次数增大时，表示事件 $$\{X\leq x\}$$ 出现频率的经验分布函数是否接近于表示事件 $$\{X\leq x\}$$ 出现概率的总体分布函数呢？这个问题可由格利文科定理来回答。
 
-**格利文科定理**：设总体 $X$ 的分布函数 $F(x)$，经验分布函数 $F_n(x)$，则有
-$$P\{\lim_{n\rightarrow\infty}\sup_{-\infty<x<+\infty}\bracevert F_n(x)-F(x)\bracevert =0 \}=1$$
-该定理揭示了总体 $X$ 的理论分布函数与经验分布函数之间的内在联系。它指出当样本容量足够大时，从样本算得的经验分布函数 $F_n(x)$ 与总体分布函数 $F(x)$ 相差的最大值也可以足够小，这就是用样本来推断总体的数学依据。
+**格利文科定理**：设总体 $$X$$ 的分布函数 $$F(x)$$，经验分布函数 $$F_n(x)$$，则有
+
+<script type="math/tex; mode=display"> P\{\lim_{n\rightarrow\infty}\sup_{-\infty<x<+\infty}\bracevert F_n(x)-F(x)\bracevert =0 \}=1 </script>
+
+该定理揭示了总体 $$X$$ 的理论分布函数与经验分布函数之间的内在联系。它指出当样本容量足够大时，从样本算得的经验分布函数 $$F_n(x)$$ 与总体分布函数 $$F(x)$$ 相差的最大值也可以足够小，这就是用样本来推断总体的数学依据。
 
 
 
