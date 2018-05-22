@@ -11,17 +11,21 @@ keywords: Math,经验分布函数
 
 设 $$(X_1,X_2,\cdots,X_n)$$ 是总体 $$X$$ 的一个样本。如果 $$X_i^*(i=1,2,\cdots,n)$$ 是样本 $$(X_1,X_2,\cdots,X_n)$$ 这样的函数：它总是取样本观察值 $$(x_1,x_2,\cdots,x_n)$$ 按从小到大排序后第 $$i$$ 个值为自己的观测值。那么就称 $$X_1^*,X_2^*,\cdots,X_n^*$$ 为顺序统计量。顺序统计量可以简记为
 
-$$X_k^*=\{X_1,X_2,\cdots,X_n中第k个小的值\},\quad k=1,2,\cdots,n$$
+<script type="math/tex; mode=display">X_k^*=\{X_1,X_2,\cdots,X_n中第k个小的值\},\quad k=1,2,\cdots,n</script>
 
 特别地，
-$$X_1^*=\min {X_1,X_2,\cdots,X_n}\\
-X_n^*=\max {X_1,X_2,\cdots,X_n}$$
-称$X_1^*$和$X_n^*$ 分别为样本的最小值和最大值。并称 $R=X^*_n-X^*_1$ 为样本的极差。
-$$\tilde{X}=\begin{cases}
+
+<script type="math/tex; mode=display">X_1^*=\min {X_1,X_2,\cdots,X_n}\\
+X_n^*=\max {X_1,X_2,\cdots,X_n}</script>
+
+称$$X_1^*$$ 和 $$X_n^*$$ 分别为样本的最小值和最大值。并称 $$R=X^*_n-X^*_1$$ 为样本的极差。
+
+<script type="math/tex; mode=display">\tilde{X}=\begin{cases}
 X^*_{\frac{n+1}{2}},\quad 当n为奇数时\\
 \frac{1}{2}(X^*_{\frac{n}{2}} + X^*_{\frac{n}{2}+1}),\quad 当n为偶数时
-\end{cases}$$
-称 $\tilde{X}$ 为样本的中位数。
+\end{cases}</script>
+  
+称 $$\tilde{X}$$ 为样本的中位数。
 
 ### 二、经验分布函数（EDF，Empirical Distribution Functions）
 
@@ -33,7 +37,8 @@ k/n,\quad x^*_{k}\leq x<x^*_{k+1}, \quad k=1,2,\cdots,n-1\\
 1,\quad x^*_n\leq x
 \end{cases}</script>
 
-则称 $F_n(x)$ 为总体 $X$ 的经验分布函数。它还可以简记为 $F_n(x)=1/n\cdot\ ^*\{x_1,x_2,\cdots,x_n\}$，其中 $^*\{x_1,x_2,\cdots,x_n\}$ 表示 $x_1,x_2,\cdots,x_n$ 中不大于 $x$ 的个数。
+则称 $$F_n(x)$$ 为总体 $$X$$ 的经验分布函数。它还可以简记为 $$F_n(x)=1/n\cdot\ ^*\{x_1,x_2,\cdots,x_n\}$$，其中 $$^*\{x_1,x_2,\cdots,x_n\}$$ 表示 $$x_1,x_2,\cdots,x_n$$ 中不大于 $$x$$ 的个数。
+
 另外一种常见的表示形式为
 
 <script type="math/tex; mode=display">F_n(x)=\frac{1}{n}\sum_{i=1}^nI\{x_i\leq x\}</script>
@@ -45,7 +50,7 @@ k/n,\quad x^*_{k}\leq x<x^*_{k+1}, \quad k=1,2,\cdots,n-1\\
 0,\quad otherwise
 \end{cases}</script>
 
-因此，求经验分布函数 $$F_n(x)$$ 在一点 $$x$$ 处的值，只要求出随机变量 $$X$$ 的 $$n$$ 个观测值 $$x_1,x_2,\cdots,x_n$$ 中小于或等于 $x$ 的个数，再除以观测次数 $$n$$ 即可。由此可见，$$F_n(x)$$ 就是在 $$n$$ 次重复独立实验中事件 $$\{X\leq x\}$$ 出现的频率。
+因此，求经验分布函数 $$F_n(x)$$ 在一点 $$x$$ 处的值，只要求出随机变量 $$X$$ 的 $$n$$ 个观测值 $$x_1,x_2,\cdots,x_n$$ 中小于或等于 $$x$$ 的个数，再除以观测次数 $$n$$ 即可。由此可见，$$F_n(x)$$ 就是在 $$n$$ 次重复独立实验中事件 $$\{X\leq x\}$$ 出现的频率。
 
 经验分布函数 $$F_n(x)$$ 的图形（如下图所示）是一条呈跳跃上升的阶梯形曲线。如果样本观测值 $$x_1,x_2,\cdots, x_n$$ 中没有重复的数值，则每一跳跃为 $$1/n$$，若有重复 $$l$$ 次的值，则按 $$1/n$$ 的 $$l$$ 倍跳跃上升。图中圆滑曲线是总体 $$X$$ 的理论分布函数 $$F(x)$$ 的图形。若把经验分布函数的图形连成折线，那么它实际就是累积频率直方图的上边。
 
