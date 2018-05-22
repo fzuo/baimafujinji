@@ -25,7 +25,7 @@ keywords: Generative,Discriminative
 一个 discriminative  model 会采用一个直接的方法，它通过在不同的类别y的可能取值之间进行判定，从而计算出概率 P(y\|**x**) ，即 
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/excel/excel32.png" width="160">
+<img src="https://fzuo.github.io/assets/img/excel/excel32.png" width="150">
 </p>
 
 根据上面这种分类方式，我们可以列举一些 generative models 的例子：
