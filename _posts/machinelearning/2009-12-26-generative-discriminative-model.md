@@ -14,15 +14,15 @@ keywords: Generative,Discriminative
 
 不妨以本博客介绍过的两个经典的机器学习模型朴素贝叶斯（Naive Bayes）和逻辑回归（logistic regression）为例来探讨Generative 和 Discriminative 的区别。Logistic regression 是一个 discriminative 的分类器，而 naive Bayes 却是一个 generative 的分类器。
 
-回想一下分类器（Classifier）的机制，当我们有一些 输入（特征向量）x 时，我们要为样本选择一个最合适的（分类）标签y，为此就需要求得条件概率 P(y|x) 的大小，其中令整个条件概率最大的 y 就是最合适的分类结果。在朴素贝叶斯法中，我们以贝叶斯定理为基础，借助似然P(x|y) 和 先验 P(y) 来”间接“地评估哪个y才是最合适的，即
+回想一下分类器（Classifier）的机制，当我们有一些 输入（特征向量）**x** 时，我们要为样本选择一个最合适的（分类）标签y，为此就需要求得条件概率 P(y\|**x**) 的大小，其中令整个条件概率最大的 y 就是最合适的分类结果。在朴素贝叶斯法中，我们以贝叶斯定理为基础，借助似然P(**x**\|y) 和 先验 P(y) 来”间接“地评估哪个y才是最合适的，即
 
 <p align="center">
 <img src="https://fzuo.github.io/assets/img/excel/excel31.png" width="300">
 </p>
 
-似然 P(**x**|y) 的意思就是在给定类别标签y的时候，试图预测那些特征更有可能会出现（也即是会产生何种的x），所以我们说如果一个模型是generative model，那么这个模型就是被训练成 通过类别 y 来生成数据 **x** （a model that is trained to generate the data x from the class y）。然后我们再通过贝叶斯定理来计算我们想要的概率 P(y|**x**)。
+似然 P(**x**\|y) 的意思就是在给定类别标签y的时候，试图预测那些特征更有可能会出现（也即是会产生何种的**x**），所以我们说如果一个模型是generative model，那么这个模型就是被训练成 通过类别 y 来生成数据 **x** （a model that is trained to generate the data **x** from the class y）。然后我们再通过贝叶斯定理来计算我们想要的概率 P(y\|**x**)。
 
-一个 discriminative  model 会采用一个直接的方法，它通过在不同的类别y的可能取值之间进行判定，从而计算出概率 P(y|**x**) ，即 
+一个 discriminative  model 会采用一个直接的方法，它通过在不同的类别y的可能取值之间进行判定，从而计算出概率 P(y\|**x**) ，即 
 
 <p align="center">
 <img src="https://fzuo.github.io/assets/img/excel/excel32.png" width="160">
