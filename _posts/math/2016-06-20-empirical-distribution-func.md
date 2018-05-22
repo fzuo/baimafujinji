@@ -44,7 +44,7 @@ $$I\{x_i\leq x\}=\begin{cases}
 经验分布函数 $F_n(x)$ 的图形（如下图所示）是一条呈跳跃上升的阶梯形曲线。如果样本观测值 $x_1,x_2,\cdots, x_n$ 中没有重复的数值，则每一跳跃为 $1/n$，若有重复 $l$ 次的值，则按 $1/n$ 的 $l$ 倍跳跃上升。图中圆滑曲线是总体 $X$ 的理论分布函数 $F(x)$ 的图形。若把经验分布函数的图形连成折线，那么它实际就是累积频率直方图的上边。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/excel/excel8.png" width="420">
+<img src="https://fzuo.github.io/assets/img/excel/excel18.png" width="420">
 </p>
 
 这和概率分布函数的性质是一致的。
