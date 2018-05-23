@@ -34,19 +34,19 @@ Skyline query是多维度数据库中一种非常重要的point query，它最�
 对应于前面讨论的“被遮挡”这个概念，我们首先定义domination(或point domination)这个概念：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/datamining/datamining26.jpg" width="500">
+<img src="https://fzuo.github.io/assets/img/datamining/datamining26.png" width="500">
 </p>
 
 例如在下图中，点a dominates b 和 e；点 k dominates e and l；点 i dominates 除了 a 和 k 的其余所有点。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/datamining/datamining27.jpg" width="320">
+<img src="https://fzuo.github.io/assets/img/datamining/datamining27.png" width="320">
 </p>
 
 基于domination的概念，我们可以来定义skyline points：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/datamining/datamining28.jpg" width="480">
+<img src="https://fzuo.github.io/assets/img/datamining/datamining28.png" width="480">
 </p>
 
 例如，在上图中，数据集中的其它所有点都被点集\{a, k, i\} 所支配（dominated）。换言之，在子集\{a, k, i\}中的任何点都没有被全集中的其它点所支配。因此{a, k, i}就是这个数据集的 skyline points。
@@ -61,7 +61,7 @@ Skyline一个经典的例子是假设去Nassau海滩旅游，想找一个既便�
 可以进行Skyline查询的算法有很多。作为一个示例，我们来介绍Kossmann等人在2002年提出的基于最近邻搜索的Skyline查询算法。
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/datamining/datamining29.jpg" width="580">
+<img src="https://fzuo.github.io/assets/img/datamining/datamining29.png" width="580">
 </p>
 
 如上图所示，从左到右：
