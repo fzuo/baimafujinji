@@ -46,7 +46,7 @@ Skyline query是多维度数据库中一种非常重要的point query，它最�
 基于domination的概念，我们可以来定义skyline points：
 
 <p align="center">
-<img src="https://fzuo.github.io/assets/img/datamining/datamining28.png" width="570">
+<img src="https://fzuo.github.io/assets/img/datamining/datamining28.png" width="580">
 </p>
 
 例如，在上图中，数据集中的其它所有点都被点集\{a, k, i\} 所支配（dominated）。换言之，在子集\{a, k, i\}中的任何点都没有被全集中的其它点所支配。因此{a, k, i}就是这个数据集的 skyline points。
