@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 谁都有追逐梦想的权利
-category: 大道行思录
+category: 围炉夜话
 tags: Dream
 keywords: 梦想,追梦
 ---
