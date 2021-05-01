@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 临渊慕鱼，不如退而结网！
-category: 大道行思录
+category: 围炉夜话
 tags: Essay
 keywords: 退而结网
 ---
