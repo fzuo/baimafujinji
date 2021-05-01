@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 柯布-道格拉斯生产函数
-category: 经济学研究
+category: 围炉夜话
 tags: Macroeconomics
 keywords: 生产函数
 ---
