@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 业余时间决定了你的人生
-category: 大道行思录
+category: 围炉夜话
 tags: Life
 keywords: 业余时间,人生
 ---
