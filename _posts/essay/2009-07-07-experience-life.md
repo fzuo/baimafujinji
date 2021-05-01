@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 生活是一种体验
-category: 大道行思录
+category: 围炉夜话
 tags: Essay
 keywords: 生活,体验
 ---
