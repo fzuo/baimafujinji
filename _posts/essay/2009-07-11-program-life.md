@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 程序人生之“真的猛士”
-category: 大道行思录
+category: 围炉夜话
 tags: Essay
 keywords: 猛士
 ---
