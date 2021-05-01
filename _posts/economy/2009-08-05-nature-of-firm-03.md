@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 企业的性质：科斯诺奖原文翻译及解读3
-category: 经济学研究
+category: 围炉夜话
 tags: Economy
 keywords: 企业的性质,科斯
 ---
