@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 新古典生产函数
-category: 经济学研究
+category: 围炉夜话
 tags: Economy
 keywords: 生产函数
 ---
