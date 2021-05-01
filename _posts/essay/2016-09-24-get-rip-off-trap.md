@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 跳出“画地为牢”的陷阱
-category: 大道行思录
+category: 围炉夜话
 tags: Essay
 keywords: 职业规划
 ---
