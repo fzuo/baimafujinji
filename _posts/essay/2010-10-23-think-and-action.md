@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 想事、做事和成事
-category: 大道行思录
+category: 围炉夜话
 tags: Essay
 keywords: 行动力
 ---
