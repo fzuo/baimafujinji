@@ -7,10 +7,10 @@ layout: post
 
 ### 教育背景
 
-Ph.D. in Computer Science, University of South Carolina, Columbia, USA
-M.S. in Computer Science, The University of Melbourne, Melbourne, Australia
-M.Ec. in Finance, Sun Yat-sen University, Canton, China
-B.E. in Sofware Engineering, Northwestern Polytechnical University, Xi'an, China
+- Ph.D. in Computer Science, University of South Carolina, Columbia, USA
+- M.S. in Computer Science, The University of Melbourne, Melbourne, Australia
+- M.Ec. in Finance, Sun Yat-sen University, Canton, China
+- B.E. in Sofware Engineering, Northwestern Polytechnical University, Xi'an, China
 
 ### 出版著作
 
