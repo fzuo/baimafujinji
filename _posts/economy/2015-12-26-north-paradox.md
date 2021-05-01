@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 诺斯悖论
-category: 经济学研究
+category: 围炉夜话
 tags: Economy
 keywords: 诺斯悖论
 ---
