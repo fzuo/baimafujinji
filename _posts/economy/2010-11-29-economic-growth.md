@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 罗斯托的经济成长阶段论
-category: 经济学研究
+category: 围炉夜话
 tags: Economy
 keywords: 经济成长理论,罗斯托
 ---
