@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 知易行难——从“等待”到“穿越”
-category: 大道行思录
+category: 围炉夜话
 tags: Essay
 keywords: 等待,穿越
 ---
