@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 谈治学
-category: 大道行思录
+category: 围炉夜话
 tags: Knowledge
 keywords: 治学
 ---
