@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 钱纳里的工业化阶段理论
-category: 经济学研究
+category: 围炉夜话
 tags: Economy
 keywords: 工业化阶段理论,钱纳里
 ---
