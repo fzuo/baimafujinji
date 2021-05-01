@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 人生博弈
-category: 大道行思录
+category: 围炉夜话
 tags: Dream
 keywords: 博弈论,囚徒困境
 ---
