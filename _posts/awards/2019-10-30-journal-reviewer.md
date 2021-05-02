@@ -8,6 +8,9 @@ keywords: Journal,Reviewer
 
 - [Future Generation Computer Systems](https://www.sciencedirect.com/journal/future-generation-computer-systems)
 
+<img align="center" src="https://fzuo.github.io/assets/img/cv_imgs/fgcs.jpg" height="300"> 
 
 - [Computers & Electrical Engineering](https://www.journals.elsevier.com/computers-and-electrical-engineering)
+
+<img align="center" src="https://fzuo.github.io/assets/img/cv_imgs/csee.jpg" height="300"> 
 
